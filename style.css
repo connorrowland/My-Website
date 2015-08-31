@@ -188,6 +188,8 @@ h1{
     top: 0px;
     margin: auto;
 }
+
+
 /*about*/
 #aboutTextBox{
     position: relative;
@@ -215,11 +217,17 @@ h1{
     font-size: 72px;
     color: #424242;
 }
-#aboutTextBox img{
+#photoOfMe{
     position: relative;
-    top: 15px;
-    padding-left: 15px;
+    width: 770px;
+    height: 540px;
+    padding-bottom: 25px;
 }
+#mePhotoContainer{
+    text-align: center;
+}
+
+
 /*design*/
 #thumbnailContainer{
     position: relative;
@@ -393,7 +401,6 @@ h1{
         width: 300px;
     }
     nav p {
-        display: inline;
         margin-bottom: 20px;
         padding: 5px;
         font-size: 24px;
@@ -409,7 +416,6 @@ h1{
         text-align: center;
         margin-top: 0px;
         padding-top: 25px;
-        display: inline-block;
         width: 100%;
         top: 0px;
     }
