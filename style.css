@@ -224,52 +224,56 @@ h1{
     font-size: 72px;
     color: #424242;
 }
-#photoOfMe{
-    position: relative;
-    width: 770px;
-    height: 540px;
-    padding-bottom: 25px;
-}
-#mePhotoContainer{
-    text-align: center;
-}
-
-
-
 
 
 /*design*/
-#designContainer{
-    margin-top: 100px;
+#designBox1{
     position: relative;
-    height: 350px;
-    width: 350px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    background-color: #F5F5F5;
+    padding: 50px;
+    height: 560px;
+}
+#designBox1 p{
+    font-size: 30px;
+}
+#designBox2{
+    font-size: 24px;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    width: 100%;
+    height: 300px;
+    background-color: #E0F7FA;
 }
-#largeDesignText{
-    font-weight: 300;
-    font-size: 48px;
-    color: #424242;
-    text-align: center;
+#designBox3{
+    background-color: #F5F5F5;
     position: relative;
-    border-bottom: 1px solid #424242;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
-#smallDesignText{
-    font-weight: 300;
-    font-size: 20px;
-    width: 300px;
     margin-left: auto;
     margin-right: auto;
-    color: #424242;
     text-align: center;
-    position: relative;
-    top: 0px;
+    width: 100%;
+    height: 300px;
+    font-size: 24px;
 }
-#designContainer button{
+#designBox2 p{
+    font-size: 24px;
+    padding-left: 241px;
+    padding-right: 241px;
+    padding-top: 65px;
+    text-align: justify;
+}
+#designBox3 p{
+    font-size: 24px;
+    padding-left: 241px;
+    padding-right: 241px;
+    padding-top: 65px;
+    text-align: center;
+}
+#designBox3 button{
     margin: 25px 15px 35px 15px;
     font-weight: 300;
     font-size: 16px;
@@ -284,7 +288,7 @@ h1{
     -moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
 }
-#designContainer a{
+#designBox3 a{
     color: white;
     text-decoration: none;
 }
