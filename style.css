@@ -232,7 +232,6 @@ h1{
     text-align: center;
     font-weight: 300;
     font-size: 24px;
-    padding: 50px;
     height: 560px;
 }
 #designBox1 p{
@@ -257,20 +256,15 @@ h1{
     height: 300px;
     font-size: 24px;
 }
-#designBox2 p{
+.designText{
     font-size: 24px;
-    padding-left: 241px;
-    padding-right: 241px;
-    padding-top: 65px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
     text-align: justify;
 }
-#designBox3 p{
-    font-size: 24px;
-    padding-left: 241px;
-    padding-right: 241px;
-    padding-top: 65px;
-    text-align: center;
-}
+
 #designBox3 button{
     margin: 25px 15px 35px 15px;
     font-weight: 300;
@@ -315,8 +309,18 @@ h1{
     height: 300px;
     background-color: #E0F7FA;
 }
-#webDevBox2 img{
-    padding-top: 80px;
+.projectTitle{
+    font-size: 24px;
+    padding-top: 20px;
+}
+#horizontalLine{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color: #CCCCCC;
+    margin-top: 35px;
+    margin-bottom: 15px;
 }
 #webDevText1 {
     font-family: 'Raleway', sans-serif;
@@ -337,9 +341,6 @@ h1{
     margin-right: auto;
     text-align: center;
     width: 100%;
-}
-#webDevBox3 img{
-    margin-top: 100px;
 }
 .codeButtons{
     margin: 25px 15px 15px 15px;
@@ -391,7 +392,7 @@ h1{
     width: 100%;
 }
 #webDevBox4 img{
-    margin-top: 100px;
+    margin-top: 40px;
 }
 #wDBoxTextContainer4{
     margin-top: 40px;
@@ -530,6 +531,13 @@ h1{
     }
     #wDBoxTextContainer4 p {
         width: 550px;
+    }
+    #designBox2{
+        height: 400px;
+    }
+    .designText {
+        width: 450px;
+        text-align: center;
     }
 }
 @media screen and (max-width:560px){
