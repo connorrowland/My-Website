@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Libre+Baskerville:400italic);
 body{
 	margin: 0px;
+	text-rendering: optimizeLegibility;
 }
 h1{
 	font-family: 'Lato', sans-serif;
