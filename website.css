@@ -218,7 +218,8 @@ footer{
 
 
 /*MEDIA QUERIES*/
-@media screen and (max-width:882px){
+@media screen and (min-device-width: 320px) and (max-width:882px){
+
 	.preview_image{
 		margin-top: 50px;
 		margin-left: 0px;
