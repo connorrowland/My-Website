@@ -232,6 +232,9 @@ footer{
 		margin-right: auto;
 		left: 0px
 	}
+	#lander_greeting1{
+		margin-top: 0px;
+	}
 	.text_and_photo_container{
 		position: relative;
 		top: 200px;
