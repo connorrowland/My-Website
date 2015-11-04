@@ -11,10 +11,12 @@ h1{
 h2{
 	font-family: 'Libre Baskerville', serif;
 	font-size: 24px;
+	font-style: italic;
 }
 h3{
 	font-family: 'Libre Baskerville', serif;
 	font-size: 18px;
+	font-style: italic;
 }
 p{
 	font-family: 'Lato', sans-serif;
