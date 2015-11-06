@@ -137,7 +137,8 @@ footer{
 	width: 550px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 80px
+    margin-bottom: 80px;
+    font-style: italic;
 }
 #closing_landing_statment{
 	width: 300px;
@@ -259,6 +260,9 @@ footer{
 	}
 	#third_lander_paragraph{
 		width: 360px;
+	}
+	#project_description_text{
+	width: 370px;
 	}
 }
 
