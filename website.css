@@ -166,6 +166,8 @@ footer{
 	text-align: center;
 	margin-left: 15px;
     margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /*END PORTFOLIO*/
@@ -178,10 +180,17 @@ footer{
 	margin-bottom: 50px;
 }
 #project_description_text{
-	font-size: 15px;
+	font-size: 16px;
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
+}
+#project_name_text{
+	margin-bottom: 30px;
+}
+#long_project_name_text{
+	font-size: 65px;
+	margin-bottom: 30px;
 }
 #project_link{
 	position: relative;
