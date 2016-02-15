@@ -32,7 +32,8 @@ a{
 	font-size: 16px;
 	letter-spacing: 2px;
 	text-align: center;
-    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #nav_bar a{
 	margin-left: 7px;
@@ -81,7 +82,23 @@ footer{
 	margin-left: 7px;
 	margin-right: 7px;
 }
-/*END GLOBAL STYLES*/
+.hunned_spacer{
+	width: 100%;
+	height: 100px;
+}
+.fiddy_spacer{
+	width: 100%;
+	height: 50px;
+}
+.light_gray_divider_line{
+	width: 400px;
+	height: 2px;
+	background-color: #ededed;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*-------------------------------------- END GLOBAL STYLES --------------------------------------*/
 
 
 /*LANDER PAGE*/
@@ -131,7 +148,8 @@ footer{
     margin-top: 0px;
     margin-bottom: 0px;
     position: relative;
-    top: 36%;
+    top: 50%;
+  	transform: translateY(-50%);
 }
 .third_lander_section{
 	text-align: center;
@@ -156,9 +174,9 @@ footer{
 	margin-right: auto;
 	margin-left: auto;
 }
-/*END LANDER PAGE*/
+/*-------------------------------------- END LANDER PAGE --------------------------------------*/
 
-/*PORTFOLIO*/
+/*-------------------------------------- PORTFOLIO --------------------------------------*/
 #porfolio_container{
 	text-align: center;
 	margin-top: 100px;
@@ -173,14 +191,12 @@ footer{
     margin-bottom: 15px;
 }
 
-/*END PORTFOLIO*/
+/*-------------------------------------- END PORTFOLIO --------------------------------------*/
 
 
-/*INDIVIDUAL PROJECT PAGES*/
+/*-------------------------------------- INDIVIDUAL PROJECT PAGES --------------------------------------*/
 .larger_project_image{
 	width: 80%;
-	margin-top: 50px;
-	margin-bottom: 50px;
 }
 #project_description_text{
 	font-size: 16px;
@@ -201,9 +217,9 @@ footer{
 	font-size: 18px;
 }
 
-/*END INDIVIDUAL PROJECT PAGES*/
+/*-------------------------------------- END INDIVIDUAL PROJECT PAGES --------------------------------------*/
 
-/*CONTACT*/
+/*-------------------------------------- CONTACT --------------------------------------*/
 #contactTextBox{
 	margin-top: 80px;
     margin-left: auto;
@@ -228,10 +244,84 @@ footer{
     box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);   
 }
 
-/*END CONTACT*/
+/*-------------------------------------- END CONTACT --------------------------------------*/
 
 
-/*MEDIA QUERIES*/
+/*-------------------------------------- BLOG --------------------------------------*/
+
+.blog_fun_background_container{
+	width: 100%;
+    height: 600px;
+    background: url("imgs/kim-crying-pattern.png");
+    position: relative;
+    text-align: center;
+}
+.fun_blog_text_container{
+	width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%
+}
+.fun_blog_text_container img{
+    margin: 0;
+    height: auto;
+    background-color: white;
+    padding: 40px;
+}
+
+/*-------------------------------------- END BLOG --------------------------------------*/
+
+/*-------------------------------------- RESPONSIVE THING --------------------------------------*/
+.iphone_shell{
+    width: 340px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 49px;
+    border: 5px solid #d6d6d6;
+	
+}
+.iphone_screen_container{
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+}
+.iphone_screen{
+    width: 328px;
+    height: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1e1e1d;
+    border: 1px solid #1c1b1a;
+}
+.camera_speaker_container{
+
+}
+.camera{
+
+}
+.speaker{
+
+}
+.iphone_screen{
+
+}
+.home_button{
+	
+}
+
+
+
+/*-------------------------------------- END RESPONSIVE THING --------------------------------------*/
+
+
+
+
+/*-------------------------------------- MEDIA QUERIES --------------------------------------*/
 @media screen and (min-device-width: 320px) and (max-width:882px){
 	.preview_image{
 		margin-top: 50px;
@@ -248,6 +338,10 @@ footer{
 	}
 	#lander_greeting1{
 		margin-top: 0px;
+		font-size: 80px !important;
+	}
+	#lander_greeting2{
+		font-size: 20px !important;
 	}
 	.text_and_photo_container{
 		position: relative;
@@ -257,15 +351,22 @@ footer{
 		top: -30px;
 	}
 	#second_lander_paragraph{
-		top: 20%;
 		width: 360px;
 	}
 	#third_lander_paragraph{
 		width: 360px;
 	}
 	#project_description_text{
-	width: 370px;
+		width: 370px;
+	}
+	.light_gray_divider_line{
+		width: 320px;
+	}
+	.fun_blog_text_container img {
+		width: 260px;
+    	height: auto;
+
 	}
 }
 
-/*END MEDIA QUERIES*/
+/*-------------------------------------- END MEDIA QUERIES --------------------------------------*/
