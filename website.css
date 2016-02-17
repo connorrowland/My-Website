@@ -86,7 +86,7 @@ footer{
 	width: 100%;
 	height: 100px;
 }
-.fiddy_spacer{
+.fifty_spacer{
 	width: 100%;
 	height: 50px;
 }
@@ -179,7 +179,7 @@ footer{
 /*-------------------------------------- PORTFOLIO --------------------------------------*/
 #porfolio_container{
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 30px;
 }
 .preview_image{
 	height: 250px;
@@ -206,9 +206,11 @@ footer{
 }
 #project_name_text{
 	margin-bottom: 30px;
+	margin-top: 0px;
 }
 #long_project_name_text{
 	font-size: 65px;
+	margin-top: 0px;
 	margin-bottom: 30px;
 }
 #project_link{
@@ -276,44 +278,106 @@ footer{
 
 /*-------------------------------------- RESPONSIVE THING --------------------------------------*/
 .iphone_shell{
-    width: 340px;
+	width: 340px;
     height: 700px;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
     border-radius: 49px;
-    border: 5px solid #d6d6d6;
-	
+    border: 5px solid #d6d6d6;	
 }
 .iphone_screen_container{
     position: relative;
     text-align: center;
-    padding-top: 80px;
 }
-.iphone_screen{
+.off_iphone_screen{
+	
     width: 328px;
     height: 540px;
     margin-left: auto;
     margin-right: auto;
     background-color: #1e1e1d;
+    margin-top: 29px;
     border: 1px solid #1c1b1a;
 }
 .camera_speaker_container{
-
+    text-align: center;
+    width: 100%;
+    margin-top: 27px;
+    position: relative;
 }
 .camera{
-
+    width: 5px;
+    height: 5px;
+    background-color: #191919;
+    border-radius: 10px;
+    border: 2px solid #262625;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: center;
+    display: inline-block;
 }
 .speaker{
-
-}
-.iphone_screen{
-
+    height: 4px;
+    width: 50px;
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
 }
 .home_button{
-	
+	width: 47px;
+    height: 47px;
+    background-color: #1e1e1e;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-top: 2px solid #292929;
+    border-bottom: 2px solid #353434;
+    border-left: 2px solid #2F2F2F;
+    border-right: 2px solid #2F2F2F;
 }
-
+.on_iphone_screen{
+	display: none;
+	width: 328px;
+    height: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("imgs/iphone_background.png");
+    margin-top: 29px;
+    border: 1px solid #1c1b1a;
+}
+.iphone_header{
+	margin-top: 3px;
+}
+.iphone_header p{
+	font-size: 12px;
+	color: white;
+	margin: 0;
+	opacity: .75;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    letter-spacing: .5;
+}
+.iphone_bottom_app_bar{
+	width: 100%;
+    background-color: white;
+    height: 80px;
+    opacity: .35;
+    margin-top: 439px;
+}
+.app{
+	width: 55px;
+    height: 55px;
+    background-color: red;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
 
 
 /*-------------------------------------- END RESPONSIVE THING --------------------------------------*/
