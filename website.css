@@ -46,7 +46,7 @@ footer{
 	background-color: #1D2022;
 	color: white;
 	letter-spacing: 2px;
-	height: 300px;
+	/*height: 300px;*/
 	margin-top: 80px;
 	text-align: center;
 }
@@ -231,8 +231,7 @@ footer{
 #contactTextBox h1{
 	margin-top: 10px;
 }
-#contactTextBox button{
-    margin-top: 35px;
+#email_me_button{
     font-size: 16px;
     background-color: #3FAFEC;
     padding: 15px 15px 15px 15px;
@@ -351,6 +350,15 @@ footer{
     margin-top: 29px;
     border: 1px solid #1c1b1a;
 }
+#personal_site_frame{
+	display: none;
+	width: 328px;
+	background-color: white;
+    height: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #1c1b1a;
+}
 .iphone_header{
 	margin-top: 3px;
 }
@@ -365,10 +373,10 @@ footer{
 }
 .iphone_bottom_app_bar{
 	width: 100%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.24);
     height: 80px;
-    opacity: .35;
-    margin-top: 439px;
+    position: relative;
+    top: 81.9%;
 }
 .app{
 	width: 55px;
@@ -380,12 +388,66 @@ footer{
     margin-right: 10px;
     margin-top: 10px;
 }
+#personal_site_app{
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border: .1px solid #E0E0E0;
+}
+#personal_site_app h1{
+	font-size: 37px;
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
 
 
 /*-------------------------------------- END RESPONSIVE THING --------------------------------------*/
 
-
-
+/*alternate footer*/
+#contact_link{
+	cursor: pointer;
+}
+#footer_envelope{
+    margin-top: 55px;
+    width: 100px;
+    height: auto;
+}
+#footer_contact_box{
+	background: url('imgs/haring_image.png');
+	padding-bottom: 55px;
+}
+#footer_contact_box h1{
+	font-size: 70px;
+    margin: 0;
+}
+#footer_contact_box h2{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#footer_contact_box a{
+    color: white !important;
+}
+#footer_lower_box{
+	background: #1A1A1B;
+    margin: 0;
+    padding-bottom: 50px;
+}
+#footer_links{
+	display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#footer_text{
+	line-height: 1.5;
+	margin: 0;
+}
 
 /*-------------------------------------- MEDIA QUERIES --------------------------------------*/
 @media screen and (min-device-width: 320px) and (max-width:882px){

@@ -18,6 +18,8 @@
 		  ga('send', 'pageview');
 
 	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="app.js"></script>
 	<link rel="shortcut icon" href="./otherPhotos/favicon1.ico"/>
 	<link rel="stylesheet" type="text/css" href="website.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700|Libre+Baskerville:400italic' rel='stylesheet' type='text/css'>
@@ -27,7 +29,7 @@
 		<a href="index.html">Home</a>
 		<a href="portfolio.html">Portfolio</a>
 		<a href="imgs/resume.pdf">Resume</a>
-		<a href="contact.html">Contact</a>
+		<a id="contact_link">Contact</a>
 	</nav>
 	<div id="porfolio_container">
 		<h1 id="project_name_text">Flat Design</h1>
@@ -37,20 +39,27 @@
 		<img class="larger_project_image" src="imgs/flat-mountain.png" alt="Flat Mountain." />
 	</div>
 
-
 	<footer>
-		<nav id="footer_nav_bar">
-			<a href="index.html">Home</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="imgs/resume.pdf">Resume</a>
-			<a href="contact.html">Contact</a>
-		</nav>
-		<div id="footer_links">
-			<a href="mailto:cjr6734@yahoo.com"><img src="http://i.imgur.com/TbL4up7.png?1" alt="Email Me"></a>
-			<a target="_blank" href="https://github.com/connorrowland"><img src="http://i.imgur.com/z0VVNbs.png?1" alt="Github"></a>
-			<a target="_blank" href="https://www.linkedin.com/in/connorrowland"><img src="http://i.imgur.com/BYqAuxN.png?1" alt="LinkedIn"></a>
+		<div id="footer_contact_box">
+			<img id="footer_envelope" src="http://i.imgur.com/d5mN9lB.png?2" title="I designed this!" alt="Flat Envelope"/>
+			<h1>Say Hi!</h1>
+			<h2>Or other things.</h2>
+			<button id="email_me_button"><a href="mailto:cjr6734@yahoo.com">Email Me!</a></button>
 		</div>
-		<p id="footer_text">Connor Rowland<br>New York, NY<br>Cjr6734@yahoo.com<br>(845)548-2033</p>
+		<div id="footer_lower_box">
+			<nav id="footer_nav_bar">
+				<a href="index.html">Home</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="imgs/resume.pdf">Resume</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+			<div id="footer_links">
+				<a href="mailto:cjr6734@yahoo.com"><img src="http://i.imgur.com/TbL4up7.png?1" alt="Email Me"></a>
+				<a target="_blank" href="https://github.com/connorrowland"><img src="http://i.imgur.com/z0VVNbs.png?1" alt="Github"></a>
+				<a target="_blank" href="https://www.linkedin.com/in/connorrowland"><img src="http://i.imgur.com/BYqAuxN.png?1" alt="LinkedIn"></a>
+			</div>
+			<p id="footer_text">Connor Rowland<br>New York, NY<br>Cjr6734@yahoo.com<br>(845)548-2033</p>
+		</div>
 	</footer>
 </body>
 </html>
