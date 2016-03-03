@@ -185,10 +185,10 @@ footer{
 	height: 250px;
 	width: 400px;
 	text-align: center;
-	margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+	margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /*-------------------------------------- END PORTFOLIO --------------------------------------*/
@@ -452,9 +452,8 @@ footer{
 /*-------------------------------------- MEDIA QUERIES --------------------------------------*/
 @media screen and (min-device-width: 320px) and (max-width:882px){
 	.preview_image{
-		margin-top: 50px;
-		margin-left: 0px;
-		margin-right: 0px;	
+		width: 300px;
+    	height: auto;
 	}
 	.lander_text{
 		margin-top: 0px;
@@ -495,6 +494,9 @@ footer{
     	height: auto;
 
 	}
+}
+@media screen and (min-device-width: 320px) and (max-width:882px){
+
 }
 
 /*-------------------------------------- END MEDIA QUERIES --------------------------------------*/
