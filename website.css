@@ -132,33 +132,42 @@ footer{
 	width: 100%;
 	position: relative;
 	background-color: #1D2022;
-	color: white;
+	background: url('imgs/line-pattern.png');
+	color: #403838;
 	height: 300px;
 	top: -70px;
 }
 #second_lander_paragraph{
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	letter-spacing: 1px;
-	font-size: 20px;
-	width: 550px;
+    font-weight: 100;
+    letter-spacing: .2px;
+    font-size: 19px;
+    width: 550px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
     position: relative;
     top: 50%;
-  	transform: translateY(-50%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    transform: translateY(-50%);
+    background-color: rgba(53, 202, 202, 0.91);
 }
 .third_lander_section{
 	text-align: center;
 }
 #third_lander_paragraph{
 	width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+	font-size: 18px;
+	color: #424040;
 }
 #closing_landing_statment{
 	width: 300px;
@@ -479,6 +488,11 @@ footer{
 	}
 	#second_lander_paragraph{
 		width: 360px;
+		padding-left: 5px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-right: 5px;
+		font-size: 17px;
 	}
 	#third_lander_paragraph{
 		width: 360px;
