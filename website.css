@@ -156,7 +156,7 @@ footer{
     padding-right: 30px;
     padding-left: 30px;
     transform: translateY(-50%);
-    background-color: rgba(53, 202, 202, 0.91);
+    background-color: rgb(53, 202, 202);
 }
 .third_lander_section{
 	text-align: center;
