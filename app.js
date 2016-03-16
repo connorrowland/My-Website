@@ -12,6 +12,18 @@ $(document).ready(function() {
     	}, 800);
 	});
 
+	//page transitions 
+	$('body').css('display', 'none');
+	$('body').fadeIn(1000);
+	$('.nav_bar > a').click(function() {
+		event.preventDefault();
+		newLocation = this.href;
+		$('body').fadeOut(1000, newpage);
+	});
+	function newpage() {
+		window.location = newLocation;
+	}
+
 	////////interactive iphone/////////
 
 	//turn on and off iphone
