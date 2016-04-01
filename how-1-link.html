@@ -18,38 +18,40 @@
 		  ga('send', 'pageview');
 
 	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="app.js"></script>
 	<link rel="shortcut icon" href="./otherPhotos/favicon1.ico"/>
 	<link rel="stylesheet" type="text/css" href="website.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700|Libre+Baskerville:400italic' rel='stylesheet' type='text/css'>
 </head>
-<body class="blog_body">
-	<div class="blog_container">
-		<nav id="nav_bar">
-			<a href="index.html">Home</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="imgs/resume.pdf">Resume</a>
-			<a href="contact.html">Contact</a>
-		</nav>
-		<div class="welcome_container">
-			<h1>Welcome to M'Blog!</h1>
+<body>
+	<nav id="nav_bar">
+		<a href="index.html">Home</a>
+		<a href="portfolio.html">Portfolio</a>
+		<a href="imgs/resume.pdf">Resume</a>
+		<a id="contact_link">Contact</a>
+	</nav>
+	<div class="blog_post_container">
+		<div class="post_title">
+			<h1>How 1 Link Drastically Changed My Site</h1>
+			<p class="post_subtitle">An analysis of how the insertion of 1 link at the end of each portfolio page changed User Flow on my website.</p>
 		</div>
+
+		
+		<div class="light_black_divider_line"></div>
 		<div class="fifty_spacer"></div>
 		
-		<div class="posts_container">
-			<p id="posts"><span id="posts_span">POSTS</span></p>
+		<div class="how-1-link-visual">
+			<p>&lt;a&gt;</p>
+		</div>
 
-			<div class="feature_post">
-				<a class="feature_blog_post_title" title="How 1 Link Drastically Changed My Site" href="how-1-link.html">How 1 Link Drastically Changed My Site</a>	
-			</div>
-			<div class="non_feature_post">
-				<a class="non_feature_blog_post_title" title="5 Things I Learned From Freelancing" href="5-things-learned-from-freelancing.html">5 Things I Learned From Freelancing</a>
-			</div>
-			<div class="post_filler">
-				
-			</div>
+		<div class="fifty_spacer"></div>
+
+		<div class="next_project_container">
+			<a href="5-things-learned-from-freelancing.html" class="next_project_link"><strong>Next Post</strong>: 5 Things I Learned From Freelancing</a>
 		</div>
 	</div>
+
 	<footer>
 		<div id="footer_contact_box">
 			<img id="footer_envelope" src="http://i.imgur.com/d5mN9lB.png?2" title="I designed this!" alt="Flat Envelope"/>
@@ -62,6 +64,7 @@
 				<a href="index.html">Home</a>
 				<a href="portfolio.html">Portfolio</a>
 				<a href="imgs/resume.pdf">Resume</a>
+				<a href="contact.html">Contact</a>
 			</nav>
 			<div id="footer_links">
 				<a href="mailto:cjr6734@yahoo.com"><img src="http://i.imgur.com/TbL4up7.png?1" alt="Email Me"></a>
