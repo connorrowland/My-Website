@@ -13,9 +13,12 @@ h1{
 	font-size: 95px;
 }
 h2{
-	font-family: 'Libre Baskerville', serif;
-	font-size: 24px;
-	font-style: italic;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 h3{
 	font-family: 'Libre Baskerville', serif;
@@ -127,9 +130,18 @@ footer{
 	margin-left: auto;
 	margin-right: auto;
 }
-.drop_cap{
-	font-size: 84px;
-	font-weight: bolder;
+.text_side_bars{
+    width: 80%;
+    line-height: 0;
+    border-bottom: 1px solid black;
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text_side_bars_span{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
 }
 
 /*-------------------------------------- END GLOBAL STYLES --------------------------------------*/
@@ -197,11 +209,13 @@ footer{
 }
 #third_lander_paragraph{
 	width: 550px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 80px;
-	font-size: 18px;
-	color: #403838;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+    letter-spacing: .5px;
 }
 #closing_landing_statment{
 	width: 300px;
@@ -734,7 +748,7 @@ footer{
 		font-size: 80px !important;
 	}
 	#lander_greeting2{
-		font-size: 20px !important;
+		font-size: 15px !important;
 	}
 	.text_and_photo_container{
 		position: relative;
