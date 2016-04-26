@@ -802,3 +802,36 @@ footer{
 
 
 /*-------------------------------------- END MEDIA QUERIES --------------------------------------*/
+
+
+
+
+
+
+
+/*
+bar chart*/
+.chart{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chart div{
+    height: 30px;
+    text-align: right;
+    font-size: 10px;
+    font-family: helvetica;
+    color: white;
+    text-transform: uppercase;
+    padding: 3px;
+    margin: 1px;
+}
+.bounce-rate-bar{
+    background-color: cornflowerblue
+}
+.page-session-bar{
+    background-color: yellow; 
+}
+.dropoff-rate-bar{
+    background-color: lightgreen; 
+}
