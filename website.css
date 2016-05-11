@@ -71,7 +71,6 @@ footer{
 	background-color: #1D2022;
 	color: white;
 	letter-spacing: 2px;
-	/*height: 300px;*/
 	margin-top: 80px;
 	text-align: center;
 }
@@ -107,7 +106,7 @@ footer{
 	margin-left: 7px;
 	margin-right: 7px;
 }
-.hunned_spacer{
+.hundred_spacer{
 	width: 100%;
 	height: 100px;
 }
@@ -115,32 +114,12 @@ footer{
 	width: 100%;
 	height: 50px;
 }
-.light_gray_divider_line{
-	width: 400px;
-	height: 2px;
-	background-color: #ededed;
-	margin-left: auto;
-	margin-right: auto;
+.side_by_side{
+    width: 100%;
+    text-align: center;
 }
-.light_black_divider_line{
-	width: 400px;
-	height: 1px;
-	background-color: black;
-	margin-left: auto;
-	margin-right: auto;
-}
-.text_side_bars{
-    width: 80%;
-    line-height: 0;
-    border-bottom: 1px solid black;
-    letter-spacing: 2px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.text_side_bars_span{
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: white;
+.side_by_side div{
+    display: inline-block;
 }
 
 /*-------------------------------------- END GLOBAL STYLES --------------------------------------*/
@@ -260,6 +239,19 @@ footer{
 .larger_project_image{
 	width: 80%;
 }
+.smaller_project_image{
+    width: 250px;
+}
+.text_and_photo{
+    width: 100%;
+}
+.text_and_photo p{
+    text-align: left;
+}
+.text_and_photo img{
+    float: left;
+    margin-right: 15px;
+}
 #project_description_text{
 	font-size: 16px;
 	width: 500px;
@@ -297,35 +289,6 @@ footer{
 
 /*-------------------------------------- END INDIVIDUAL PROJECT PAGES --------------------------------------*/
 
-
-
-/*-------------------------------------- CONTACT --------------------------------------*/
-#contactTextBox{
-	margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-#contactTextBox h1{
-	margin-top: 10px;
-}
-#email_me_button{
-    font-size: 16px;
-    background-color: #3FAFEC;
-    padding: 15px 15px 15px 15px;
-    border-radius: 5px;
-    border: solid 0px #c9c9c9;
-    text-transform: uppercase;
-    text-decoration: none;
-    -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);   
-}
-#contactTextBox a{
-	color: white !important;
-}
-
-/*-------------------------------------- END CONTACT --------------------------------------*/
 
 
 /*-------------------------------------- BLOG --------------------------------------*/
@@ -463,6 +426,24 @@ footer{
 }
 
 /*-------------------------------------- END BLOG --------------------------------------*/
+
+
+/*-------------------------------------- WRESQ --------------------------------------*/
+.wresq_bef_aft{
+    width: 450px;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.wresq_trio_screenshot{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 250px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/*-------------------------------------- END WRESQ --------------------------------------*/
 
 /*-------------------------------------- RESPONSIVE THING --------------------------------------*/
 .iphone_shell{
@@ -620,6 +601,7 @@ footer{
 #footer_contact_box a{
     color: white !important;
 }
+
 #footer_lower_box{
 	background: #1A1A1B;
     margin: 0;
@@ -634,6 +616,19 @@ footer{
 #footer_text{
 	line-height: 1.5;
 	margin: 0;
+}
+#email_me_button{
+    font-size: 16px;
+    background-color: #3FAFEC;
+    padding: 12px 15px 15px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);  
 }
 
 
@@ -800,8 +795,50 @@ footer{
 		margin-top: 0px;
 	}
 }
-
-
+@media screen and (max-width:500px){
+    .wresq_bef_aft{
+        width: 400px;
+    }
+    #project_name_text{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #long_project_name_text{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:430px){
+    .wresq_bef_aft{
+        width: 300px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #project_description_text{
+        width: 300px;
+    }
+    #lander_greeting2{
+        margin-top: 0px;
+        width: 300px;
+    }
+    #second_lander_paragraph{
+        width: 300px;
+        font-size: 16px;
+    }
+    #third_lander_paragraph{
+        width: 300px;
+    }
+    #project_name_text{
+        width: 300px;
+        font-size: 50px;
+    }
+    #long_project_name_text{
+        width: 300px;
+        font-size: 50px;
+    }
+}
 /*-------------------------------------- END MEDIA QUERIES --------------------------------------*/
 
 
