@@ -11,6 +11,12 @@ $(document).ready(function() {
         	scrollTop: $("#footer_contact_box").offset().top
     	}, 800);
 	});
+	//scroll to portfolio in footer on click of portfolio button
+	$("#portfolio_link").click(function(){
+    	$('html, body').animate({
+        	scrollTop: $("#portfolio_container_new").offset().top
+    	}, 800);
+	});
 
 	//page transitions 
 	$('body').css('display', 'none');

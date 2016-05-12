@@ -20,9 +20,10 @@ h2{
     font-weight: 400;
 }
 h3{
-	font-family: 'Libre Baskerville', serif;
-	font-size: 18px;
-	font-style: italic;
+    font-family: 'Lato';
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
 }
 h4{
 	font-family: 'Dharma';
@@ -126,91 +127,43 @@ footer{
 
 
 /*LANDER PAGE*/
-.lander_container{
-	display: inline-flex;
-	width: 100%;
-	height: 650px;
+#portfolio_container_new{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #FDFDFD;
+    border-top: 5px dotted #D0CFCF;
+}
+#portfolio_container_new p{
+    letter-spacing: 3px;
+}
+.lander_container_new{
+    width: 100%;
+    margin-bottom: 40px;
     text-align: center;
 }
-.text_and_photo_container{
-	position: relative;
+#lander_city{
     margin-left: auto;
     margin-right: auto;
-    top: 100px;
+    margin-top: 50px;
 }
-.lander_text{
-	text-align: left;
-    position: relative;
-    display: inline-block;
-    top: -180px;
-    margin-left: 30px
-}
-#lander_greeting1{
-	margin-bottom: 0px;
-	margin-top: 130px;
-}
-#lander_greeting2{
-	margin-top: 0px;
-	width: 340px;
-}
-.second_lander_section{
-	width: 100%;
-	position: relative;
-	background-color: #1D2022;
-	background: url('imgs/line-pattern.png');
-	color: #403838;
-	height: 300px;
-	top: -70px;
-}
-#second_lander_paragraph{
-	font-family: 'Lato', sans-serif;
-    font-weight: 100;
-    letter-spacing: .2px;
-    font-size: 19px;
-    width: 550px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 100px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    position: relative;
-    top: 50%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
-    transform: translateY(-50%);
-    background-color: white;
-}
-.third_lander_section{
-	text-align: center;
-}
-#third_lander_paragraph{
-	width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
-    font-size: 18px;
-    color: black;
-    font-weight: 300;
-    letter-spacing: .5px;
-}
-#closing_landing_statment{
-	width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+#lander_greeting1_new{
+    display: inherit;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
-.horizontal_divider_line{
-	height: 2px;
-	width: 200px;
-	background-color: #D1D3D4;
-	margin-right: auto;
-	margin-left: auto;
+#lander_greeting2_new{
+    display: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 505px;
 }
 /*-------------------------------------- END LANDER PAGE --------------------------------------*/
+
 
 /*-------------------------------------- PORTFOLIO --------------------------------------*/
 #porfolio_container{
@@ -221,13 +174,21 @@ footer{
 	height: 250px;
 	width: 400px;
 	text-align: center;
-	margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(196,196,196,1);
-	-moz-box-shadow: 0px 0px 5px 1px rgba(196,196,196,1);
-	box-shadow: 0px 0px 5px 1px rgba(196,196,196,1);
+	margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(196,196,196,1);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(196,196,196,1);
+    -0-box-shadow: 0px 0px 3px 1px rgba(196,196,196,1);
+	box-shadow: 0px 0px 3px 1px rgba(196,196,196,1);
+}
+.preview_image:hover{
+    opacity: 0.6;
+    -webkit-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    transition: opacity .2s;
 }
 
 /*-------------------------------------- END PORTFOLIO --------------------------------------*/
@@ -730,39 +691,6 @@ footer{
 		width: 300px;
     	height: auto;
 	}
-	.lander_text{
-		margin-top: 0px;
-		text-align: center;
-		position: absolute;
-		margin-left: auto;
-		margin-right: auto;
-		left: 0px
-	}
-	#lander_greeting1{
-		margin-top: 0px;
-		font-size: 80px !important;
-	}
-	#lander_greeting2{
-		font-size: 15px !important;
-	}
-	.text_and_photo_container{
-		position: relative;
-		top: 200px;
-	}
-	.second_lander_section{
-		top: -30px;
-	}
-	#second_lander_paragraph{
-		width: 360px;
-		padding-left: 5px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		padding-right: 5px;
-		font-size: 17px;
-	}
-	#third_lander_paragraph{
-		width: 360px;
-	}
 	#project_description_text{
 		width: 370px;
 	}
@@ -795,6 +723,11 @@ footer{
 		margin-top: 0px;
 	}
 }
+@media screen and (max-width:550px){
+    #lander_greeting2_new{
+        width: 355px;
+    }
+}
 @media screen and (max-width:500px){
     .wresq_bef_aft{
         width: 400px;
@@ -819,16 +752,15 @@ footer{
     #project_description_text{
         width: 300px;
     }
-    #lander_greeting2{
-        margin-top: 0px;
+    #lander_greeting2_new{
         width: 300px;
     }
-    #second_lander_paragraph{
-        width: 300px;
-        font-size: 16px;
+    #lander_city{
+        width: 280px;
+        height: auto;
     }
-    #third_lander_paragraph{
-        width: 300px;
+    #lander_greeting1_new{
+        font-size: 80px;
     }
     #project_name_text{
         width: 300px;
@@ -873,3 +805,4 @@ bar chart*/
 .dropoff-rate-bar{
     background-color: lightgreen; 
 }
+

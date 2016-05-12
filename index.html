@@ -5,7 +5,7 @@
 	<!-- Meta Tags -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="A Web Engineering and Graphic Design portfolio website for me, Connor, based in New York City.">
+	<meta name="description" content="A group of work completed in Web Engineering and Graphic Design portfolio by me, Connor, based in New York City.">
 	<meta name="author" content="Connor Rowland">
 	<meta name="keywords" content="web developer, nyc, developer, manhattan, new york, connor rowland, graphic designer, developer new york, new york web developer, new york web engineer, web developer new york, web engineer, Connor John Rowland, baruch college">
 	<!-- Scripts and Links -->
@@ -23,30 +23,37 @@
 	<script src="app.js"></script>
 	<link rel="shortcut icon" href="./otherPhotos/favicon1.ico"/>
 	<link rel="stylesheet" type="text/css" href="website.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700|Libre+Baskerville:400italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<nav id="nav_bar">
-		<a href="index.html">Home</a>
-		<a href="portfolio.html">Portfolio</a>
+		<a id="portfolio_link">Portfolio</a>
 		<a href="imgs/resume.pdf">Resume</a>
 		<a id="contact_link">Contact</a>
 	</nav>
-	<div class="lander_container">
-		<div class="text_and_photo_container">
-			<img id="icon_of_me"src="http://i.imgur.com/dVg6YIY.png?1" alt="icon of me.">
-			<div class="lander_text">
-				<h1 id="lander_greeting1">HELLO!</h1>
-				<h2 id="lander_greeting2">I'm Connor, a Web Engineer and Graphic Designer. This is a cartoon I made of myself. I do have eyes and other facial features IRL.</h2>
-			</div>	
+	<div class="lander_container_new">
+		<img id="lander_city" src="http://i.imgur.com/eg6YKkM.png?1" title="I made dis" alt="Flat Cartoon of New York"/>
+		<h1 id="lander_greeting1_new">HELLO!</h1>
+		<h3 id="lander_greeting2_new">I'm Connor, a Web Engineer and Graphic Designer based in New York. I love taking part in work where I can blend meaningful design with well-written code to build great things. Check out my portfolio below, and my <a class="underline_link" href="http://connorrowland.github.io/imgs/resume.pdf" title="Connor Rowland Design and Engineering Resume">resume</a> to get a better guage of my presence in design and engineering.</p></h3>
+	</div>
+	<div id="portfolio_container_new">
+		<p>ENGINEERING WORK</p>
+		<div class="preview_image_container">
+			<a href="wresq.html"><img class="preview_image" src="imgs/wresq-preview-website.png" alt="Law Firm Website Preview"></a>
+			<a href="iphone.html"><img class="preview_image" src="imgs/iphone-preview-website.png" alt="iPhone Replica"></a>
+			<a href="ellevest.html"><img class="preview_image" src="imgs/ellevest-preview-website.png" alt="Ellevest Project Preview" /></a>
+			<a href="letsmeet.html"><img class="preview_image" src="imgs/letsmeet-preview-website.png" alt="Lets Meet Preview" /></a>
+		</div>
+		<div class="fifty_spacer"></div>
+		<p>DESIGN WORK</p>
+		<div class="preview_image_container">
+			<a href="trilogy.html"><img class="preview_image" src="imgs/git-preview-website.png" alt="Git Project Preview"/></a>
+			<a href="baruch.html"><img class="preview_image" src="imgs/baruch-preview-website-03.png" alt="Baruch Project Preview"/></a>
+			<a href="magazines.html"><img class="preview_image" src="imgs/magazine-preview-website-04.png" alt="Magazine Project Preview"/></a>
+			<a href="pride.html"><img class="preview_image" src="imgs/pride-preview-website.png" alt="Pride Project Preview"/></a>
 		</div>
 	</div>
-	<div class="second_lander_section">
-		<p id="second_lander_paragraph">I love taking part in work where I can blend meaningful design with well-written code to build great things. Thanks for stopping by!</p>
-	</div>
-	<div class="third_lander_section">
-		<img src="http://i.imgur.com/eg6YKkM.png?1" title="I made dis" alt="Flat Cartoon of New York"/>
-		<p id="third_lander_paragraph">So many amazing application ideas executed with poor design go to waste. I hope to make sure that happens a bit less, as I integrate design with engineering to showcase an idea to its fullest ability. I'm now realizing this caption has nothing to do with the above cartoon, but it looks nice and I like it!<br><br>Check out my <a class="underline_link" href="http://connorrowland.github.io/portfolio.html" title="Connor Rowland Design and Engineering Portfolio">portfolio</a> and <a class="underline_link" href="http://connorrowland.github.io/imgs/resume.pdf" title="Connor Rowland Design and Engineering Resume">resume</a> to get a better guage of my presence in design and engineering.</p>
-	</div>
+
 	<footer>
 		<div id="footer_contact_box">
 			<img id="footer_envelope" src="http://i.imgur.com/d5mN9lB.png?2" title="I designed this!" alt="Flat Envelope"/>
