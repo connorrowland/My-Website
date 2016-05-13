@@ -71,6 +71,10 @@ footer{
 	color: white;
 	letter-spacing: 2px;
 	text-align: center;
+    margin-top: 30px;
+}
+#home_footer{
+    margin-top: 0px;
 }
 #footer_text{
 	text-transform: uppercase;
@@ -280,6 +284,10 @@ footer{
     -ms-transition: padding-left .2s, padding-right .2s;
     -o-transition: padding-left .2s, padding-right .2s;
     transition: padding-left .2s, padding-right .2s;
+}
+#porfolio_container{
+  text-align: center;
+  margin-top: 30px;
 }
 
 /*-------------------------------------- END INDIVIDUAL PROJECT PAGES --------------------------------------*/
