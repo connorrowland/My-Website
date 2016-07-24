@@ -51,7 +51,7 @@ a{
     font-weight: bold;
 }
 .underline_link:hover{
-    color: #D8625D;		
+    color: #03A9F4;		
 }
 
 #nav_bar{
@@ -290,7 +290,7 @@ footer{
 .next_project_link:hover{
     padding-left: 35px;
     padding-right: 35px;
-    color: #F39431;
+    color: #03A9F4;
     -webkit-transition: padding-left .2s, padding-right .2s;
     -moz-transition: padding-left .2s, padding-right .2s;
     -ms-transition: padding-left .2s, padding-right .2s;
