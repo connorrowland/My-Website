@@ -456,6 +456,13 @@ footer{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.wresq_old_screenshots{
+    padding: 150px 0;
+    background-color: rgb(30,33,34)
+}
+.wresq_old_screenshots h2{
+    color: #f8f8f8;
+}
 /*-------------------------------------- END WRESQ --------------------------------------*/
 
 /*-------------------------------------- RESPONSIVE THING --------------------------------------*/
