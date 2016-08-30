@@ -18,7 +18,6 @@ h1{
 h2{
     font-family: 'Dharma', sans-serif;
     font-size: 35px;
-    font-style: italic;
     letter-spacing: 3px;
 }
 h3{
@@ -142,7 +141,42 @@ footer{
     position: relative;
     transform: translateY(-50%);
 }
+.horizontal_rule{
+    width: 100%;
+    height: 1px;
+    background-color: #e4e4e4;
+    margin: 30px 0;
+}
+.mid_page_header{
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin: 0;
+}
+.desktop_img{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+.mobile_img{
+    display: none;
+    max-width: 290px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.white_block{
+    width: 100%;
+    background-color: white;
+}
+.lander_img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.lander_img img{
+    width: 860px;
+}
 /*-------------------------------------- END GLOBAL STYLES --------------------------------------*/
 
 
@@ -225,8 +259,9 @@ footer{
 }
 .lander_container_new{
     width: 100%;
-    height: 600px;
+    height: 800px;
     text-align: center;
+    position: relative;
 }
 #lander_greeting1_new{
     display: inherit;
@@ -238,7 +273,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
-    width: 505px;
+    width: 410px;
 }
 /*-------------------------------------- END LANDER PAGE --------------------------------------*/
 
@@ -307,6 +342,11 @@ footer{
 #portfolio_container{
   text-align: center;
   margin-top: 90px;
+}
+.wide_text_box{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*-------------------------------------- END INDIVIDUAL PROJECT PAGES --------------------------------------*/
@@ -671,7 +711,6 @@ footer{
 }
 .portfolio_text_box{
 	width: 350px;
-
 }
 .align_right{
 	text-align: right;
@@ -767,8 +806,10 @@ footer{
 	.fun_blog_text_container img {
 		width: 260px;
     	height: auto;
-
 	}
+    .lander_img img{
+        width: 720px;
+    }
 }
 @media screen and (min-device-width: 320px) and (max-width:760px){
 	.portfolio_inner_text{
@@ -783,16 +824,31 @@ footer{
 	.align_right{
 		text-align: left;
 	}
-	.large_green_ellevest_box{
-		display: none;
-	}
 	.top_of_container_text{
 		margin-top: 0px;
 	}
+    .large_green_ellevest_box,.desktop_img{
+        display: none;
+    }
+    .mobile_img{
+        display: block;
+    }
+    .wide_text_box{
+        width: 450px;
+    }
+    .lander_img img{
+        width: 520px;
+    }
 }
 @media screen and (max-width:550px){
     #lander_greeting2_new{
         width: 355px;
+    }
+    .lander_img{
+        overflow: hidden;
+    }
+    .lander_img img{
+        width: 600px;
     }
 }
 @media screen and (max-width:500px){
@@ -853,7 +909,8 @@ footer{
     .right_items,
     .portfolio_preview_bio,
     #project_description_text,
-    #lander_greeting2_new {
+    #lander_greeting2_new,
+    .wide_text_box {
         width: 300px;
     }
     .small_green_ellevest_box {
