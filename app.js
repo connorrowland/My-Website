@@ -30,6 +30,11 @@ $(document).ready(function() {
 		window.location = newLocation;
 	}
 
+	//index portfolio page slideup
+	$('.portfolio_preview_updates').click(function() {
+		$(this).addClass('slide_div_up')
+	})
+
 	////////interactive iphone/////////
 
 	//turn on and off iphone
