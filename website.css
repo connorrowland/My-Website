@@ -179,7 +179,7 @@ footer{
 }
 .lander_img{
     position: absolute;
-    bottom: 0;
+    bottom: -4px;
     width: 100%;
 }
 .lander_img img{
