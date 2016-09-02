@@ -671,7 +671,7 @@ footer{
 	padding-bottom: 55px;
 }
 #footer_contact_box h1{
-	font-size: 70px;
+	font-size: 65px;
     margin: 0;
 }
 #footer_contact_box p{
@@ -683,7 +683,7 @@ footer{
 }
 
 #footer_lower_box{
-	background: #1A1A1B;
+	background: #181819;
     margin: 0;
     padding-bottom: 50px;
 }
@@ -710,7 +710,29 @@ footer{
     -moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);  
 }
-
+#reach_out_footer{
+    background: #1d1d1d;
+}
+#reach_out_text{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+#reach_out_text h2{
+    letter-spacing: 4px;
+    font-size: 32px;
+    border-left: 2px solid #f8f8f8;
+    width: 500px;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+#reach_out_text a{
+    color: #f8f8f8;
+    border-bottom: 1px solid #f8f8f8;
+}
 
 
 /*------------------------------------ ELLEVEST PORTFOLIO PAGE ----------------------------------*/
@@ -852,6 +874,12 @@ footer{
     .lander_img img{
         width: 520px;
     }
+    #reach_out_text{
+    width: 350px;
+    }
+    #reach_out_text h2{
+        width: 300px;
+    }
 }
 @media screen and (max-width:550px){
     #lander_greeting2_new{
@@ -931,6 +959,17 @@ footer{
     }
     .gray_ellevest_box {
         width: 100px;
+    }
+    #reach_out_text{
+        width: 300px;
+    }
+    #reach_out_text p{
+        font-size: 15px;
+    }
+    #reach_out_text h2{
+        width: 280px;
+        font-size: 25px;
+        letter-spacing: 3px;
     }
 
 }
