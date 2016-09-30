@@ -797,6 +797,16 @@ footer{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+#elv_in_office_img{
+    display: inline-block;
+    max-width: 250px;
+}
+.text_w_wrap{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+}
 
 
 /*------------------------------------ END ELLEVEST PORTFOLIO PAGE ----------------------------------*/
