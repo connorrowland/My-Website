@@ -19,36 +19,101 @@
 
 	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<script src="app.js"></script>
+	<script src="../app.js"></script>
 	<link rel="shortcut icon" href="./otherPhotos/favicon1.ico"/>
 	<link rel="stylesheet" type="text/css" href="../website.css">
 </head>
 <body>
 	<nav id="nav_bar">
-		<a href="index.html">Home</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="imgs/resume.pdf">Resume</a>
+		<a href="../index.html">Home</a>
+		<a href="../index.html#portfolio_container_new">Portfolio</a>
+		<a href="../blog.html">Blog</a>
+		<a href="../imgs/resume.pdf">Resume</a>
 		<a id="contact_link">Contact</a>
 	</nav>
 	<div class="blog_post_container">
-		<div class="post_title">
-			<h1 class="blog_post_title">How 1 Link Drastically Changed My Site</h1>
-			<p class="post_subtitle">An analysis of how the insertion of 1 link at the end of each portfolio page changed User Flow on my website.</p>
+		<div class="slanted_edge proj2">
+			<div class="post_title">
+				<h2 class="blog_post_title">My Approach to User Flow</h2>
+				<p class="post_subtitle">An analysis of how the insertion of 1 link at the end of each portfolio page changed User Flow on my website.</p>
+			</div>
 		</div>
 
-		
-		<div class="light_black_divider_line"></div>
+		<div class="post_container">
+			<div class="post_body first_paragraph">
+				<p>
+					I like to think of my personal website as a kind of playground for trying out new things in engineering and design. Sometimes it's using a new font I found-- like the one I’ve used for headings called Dharma Gothic. Others could be making a small language practice project, like this <a href="./iphone.html" target="_blank">iPhone Reproduction</a> I made to brush up on my memory of the DOM and JQuery. This post, however, is about my experience trying out a user experience/flow study, where I wanted to test out a potential solution to my issue of users dropping off at a mildly alarming rate at different points on the site.
+				</p>
+
+				<h4 class="mid_page_header">
+					Outline
+				</h4>
+				<p>
+					What staggered drop-off means to me is a poorly defined user flow. I saw that people were coming to my site, selecting certain project pages I had and dropping off, instead of going through the loop of them, which was my original intention. So what I needed to do was create an understandable, easy to follow user loop that would guide people throughout my different project pages that I wanted to display, giving users a broad, cohesive view of my work.
+				</p>
+
+				<h4 class="mid_page_header">
+					What I Did
+				</h4>
+				<p>
+					In order to create this loop I had a few different options. I could just put all of my content on one long page that would continuously scroll until there was no more left to show. But that option felt wrong, as the more content I had the more gigantic this page would be. I also felt this would be disorganized. So I scrapped that idea and decided to focus more on navigation, to fix that disorganization problem. Specifically, I wanted to place small bits of navigation throughout my portfolio at the end of every portfolio page, that would link to the next project in my “loop.” So that’s what I did! And the effects were awesome.
+				</p>
+			</div>
+		</div>
+
 		<div class="fifty_spacer"></div>
-		
-		<div class="how-1-link-visual">
-			<p>&lt;a&gt;</p>
+
+		<div class="white_block">
+			<div class="horizontal_rule"></div>
+			<div class="fifty_spacer"></div>
+			<div class="wide_text_box">
+				<div id="how_1_link_container">
+					<p class="next_project_link"><strong>Next Project</strong>: Project Name</p>
+				</div>
+			</div>
+			<div class="fifty_spacer"></div>
+			<div class="horizontal_rule"></div>
 		</div>
 
 		<div class="fifty_spacer"></div>
 
-		<div class="next_project_container">
-			<a href="5-things-learned-from-freelancing.html" class="next_project_link"><strong>Next Post</strong>: 5 Things I Learned From Freelancing</a>
+		<div class="post_container">
+			<div class="post_body">
+				<h4 class="mid_page_header">
+					Results
+				</h4>
+				<p>
+					I think the best way to define the results I saw is to define the loop and show you images of the user flow before and after I pushed up the changes to my site with the end-of-page links.
+					<br>
+					At this period of time (March, 2016) the loop goes as follows (each of these words represents the name of the portfolio file): iPhone, Ellevest, Let's Meet, Trilogy, Baruch, Magazines, and then Pride. 
+				</p>
+			</div>
 		</div>
+
+		<div class="hundred_spacer"></div>
+
+		<div id="how_1_img_box">
+			<img class="desktop_img" src="../imgs/user-flow--desktop.png" alt="User Flow Infographic">
+			<img class="mobile_img" src="../imgs/user-flow--mobile.png" alt="User Flow Infographic">
+		</div>
+
+		<div class="fifty_spacer"></div>
+
+		<div class="post_container">
+			<div class="post_body">
+				<p>
+					It worked! The loop worked! I was honestly so excited when I saw this&mdash;that I could see people going through the exact track/loop I defined. Less people were dropping off on the site as a whole, as well, from 86.7% to 68.5%. And that was just from doing about 30 minutes of coding, which is awesome! 
+				</p>
+
+				<p>
+					More so than anything, this project taught me about how helpful a user experience can be to the success of a website. So I'm happy that I had the opportunity to branch out of my comfort zone and play around with UX, and that having a personal web "playground" gave me the place to do that. 
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="next_project_container">
+		<a href="5-things-learned-from-freelancing.html" class="next_project_link"><strong>Next Post</strong>: 5 Things I Learned From Freelancing</a>
 	</div>
 
 	<footer>
@@ -56,21 +121,22 @@
 			<img id="footer_envelope" src="http://i.imgur.com/d5mN9lB.png?2" title="I designed this!" alt="Flat Envelope"/>
 			<h1>Say Hi!</h1>
 			<h2>Or other things.</h2>
-			<button id="email_me_button"><a href="mailto:cjr6734@yahoo.com">Email Me!</a></button>
+			<button id="email_me_button"><a href="mailto:connor.rowland34@gmail.com">Email Me!</a></button>
 		</div>
 		<div id="footer_lower_box">
 			<nav id="footer_nav_bar">
-				<a href="index.html">Home</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="imgs/resume.pdf">Resume</a>
-				<a href="contact.html">Contact</a>
+				<a href="../index.html">Home</a>
+				<a href="../index.html/portfolio_container_new">Portfolio</a>
+				<a href="../blog.html">Blog</a>
+				<a href="../imgs/resume.pdf">Resume</a>
+				<a href="mailto:connor.rowland34@gmail.com">Contact</a>
 			</nav>
 			<div id="footer_links">
 				<a href="mailto:cjr6734@yahoo.com"><img src="http://i.imgur.com/TbL4up7.png?1" alt="Email Me"></a>
 				<a target="_blank" href="https://github.com/connorrowland"><img src="http://i.imgur.com/z0VVNbs.png?1" alt="Github"></a>
 				<a target="_blank" href="https://www.linkedin.com/in/connorrowland"><img src="http://i.imgur.com/BYqAuxN.png?1" alt="LinkedIn"></a>
 			</div>
-			<p id="footer_text">Connor Rowland<br>New York, NY<br>Cjr6734@yahoo.com<br>(845)548-2033</p>
+			<p id="footer_text">Connor Rowland<br>New York, NY<br>connor.rowland34@gmail.com<br>(845)548-2033</p>
 		</div>
 	</footer>
 </body>

@@ -56,6 +56,7 @@ a:hover{
 #nav_bar{
     font-size: 16px;
     letter-spacing: 2px;
+    line-height: 2.1;
     text-align: center;
     padding-top: 15px;
     width: 100%;
@@ -164,7 +165,6 @@ footer{
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-
 }
 .mobile_img{
     display: none;
@@ -329,16 +329,24 @@ footer{
 	text-decoration: underline;
 	font-size: 18px;
 }
-.next_project_link{
-	font-size: 20px;
+.next_project_container{
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     border-right: 2px solid;
     border-left: 2px solid;
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
-.next_project_link:hover{
-    padding-left: 35px;
-    padding-right: 35px;
+.next_project_link{
+	font-size: 19px;
+}
+.next_project_container:hover{
+    padding-left: 25px;
+    padding-right: 25px;
     color: #03A9F4;
     -webkit-transition: padding-left .2s, padding-right .2s;
     -moz-transition: padding-left .2s, padding-right .2s;
@@ -361,7 +369,6 @@ footer{
 
 
 /*-------------------------------------- BLOG --------------------------------------*/
-
 .blog_container{
 	width: 100%;
 	text-align: center;
@@ -387,10 +394,12 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
+#floppy-bg{
+    background: url('imgs/floppy-disk-background.png');
+}
 .non_feature_post{
 	width: 347px;
     height: 300px;
-    background: url('imgs/floppy-disk-background.png');
     display: inline-block;
     text-align: left;
     vertical-align: top;
@@ -400,7 +409,6 @@ footer{
     width: 100%;
     height: 450px;
     text-align: left;
-    background-color: #0097A7;;
     margin-left: auto;
     margin-right: auto;
 }
@@ -409,9 +417,12 @@ footer{
     margin-left: 50px;
     padding-top: 50px;
 }
+.title_container{
+    width: 200px;
+}
 .feature_blog_post_title{
-    font-size: 55px;
-    color: white;
+    font-size: 65px;
+    color: black;
     text-transform: uppercase;
     font-weight: 100;
     font-family: 'Dharma';
@@ -419,64 +430,80 @@ footer{
     font-style: italic;
 }
 .non_feature_blog_post_title{
-    font-family: 'Lato';
-    font-size: 30px;
-    color: #2F2F2F;
+    font-family: 'Courier';
+    font-weight: 100;
+    font-size: 28px;
+    color: white;
     text-transform: uppercase;
-    font-weight: bolder;
-    padding-bottom: 20px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
 }
 .feature_blog_post_title:hover,.non_feature_blog_post_title:hover{
 	text-decoration: underline;
 }
-.post_filler{
-	width: 49.8%;
-	height: 300px;
-	margin: 0;
-	padding: 0;
-	background: url('imgs/flag.jpg');
-	position: relative;
-	display: inline-block;
-	opacity: 0.6;
-}
-
 .blog_post_container{
-	width: 100%;
-	text-align: center;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 150px;
+}
+.slanted_edge{
+    padding-top: 150px;
+    padding-bottom: 80px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 79%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 79%);  
 }
 .post_title{
-	padding-bottom: 10px;
+    padding-bottom: 10px;
     width: 750px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
 }
-.post_title h1{
+.post_title h2{
     font-family: 'Dharma';
-    font-style: italic;
-    font-size: 100px;
-    margin-bottom: 10px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: white;
+}
+.post_title p{
+    color: white;
 }
 .post_subtitle{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 16px;
-    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-style: italic;
+}
+.post_container{
+    width: 750px;
     margin-left: auto;
     margin-right: auto;
 }
 .post_body{
-	width: 580px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 640px;
 	text-align: left;
 }
-
+.first_paragraph p:first-child:first-letter{
+    font-family: 'Dharma';
+    font-size: 70px;
+    float: left;
+    line-height: 60px; 
+    padding-top: 4px; 
+    padding-right: 15px; 
+    padding-left: 3px;
+}
+.post_body h4{
+    margin-top: 35px;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 27px;
+}
 .how-1-link-visual{
     width: 100%;
     background-color: #FF6843;
@@ -492,7 +519,21 @@ footer{
     transform: translateY(-50%);
     margin-top: 0px;
 }
-
+#how_1_img_box{
+    width: 100%;
+    background-color: rgb(45, 53, 66);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+#how_1_link_container{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#how_1_link_container p{
+    pointer-events: none;
+}
 /*-------------------------------------- END BLOG --------------------------------------*/
 
 
@@ -851,6 +892,12 @@ footer{
     .lander_img img{
         width: 720px;
     }
+    .post_title,.post_container{
+        width: 700px;
+    }
+    .post_body{
+        width: 520px;
+    }
 }
 @media screen and (min-device-width: 320px) and (max-width:760px){
 	.portfolio_inner_text{
@@ -886,6 +933,19 @@ footer{
     #reach_out_text h2{
         width: 300px;
     }
+    .posts_container{
+        width: 500px;
+    }
+    .non_feature_post{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .post_title,.post_container{
+        width: 530px;
+    }
+    .post_body{
+        width: 520px;
+    }
 }
 @media screen and (max-width:550px){
     #lander_greeting2_new{
@@ -896,6 +956,15 @@ footer{
     }
     .lander_img img{
         width: 600px;
+    }
+    .posts_container{
+        width: 400px;
+    }
+    .post_title,.post_container{
+        width: 490px;
+    }
+    .post_body{
+        width: 450px;
     }
 }
 @media screen and (max-width:500px){
@@ -912,12 +981,29 @@ footer{
         margin-left: auto;
         margin-right: auto;
     }
+    .post_title,.post_container{
+        width: 400px;
+    }
+    .post_body{
+        width: 350px;
+    }
 }
 @media screen and (max-width:430px){
     .wresq_bef_aft{
         width: 300px;
         margin-left: 5px;
         margin-right: 5px;
+    }
+    .feature_blog_post_title{
+        font-size: 45px;
+    }
+    .feature_post{
+        height: 350px;
+    }
+    .feature_title_container {
+        width: 250px;
+        margin-left: 30px;
+        padding-top: 50px;
     }
     #lander_city{
         width: 280px;
@@ -957,7 +1043,12 @@ footer{
     .portfolio_preview_bio,
     #project_description_text,
     #lander_greeting2_new,
-    .wide_text_box {
+    .wide_text_box,
+    .posts_container,
+    .post_title,
+    .post_container,
+    .post_body,
+    #how_1_link_container {
         width: 300px;
     }
     .small_green_ellevest_box {
