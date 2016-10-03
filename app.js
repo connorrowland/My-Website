@@ -31,9 +31,9 @@ $(document).ready(function() {
 	}
 
 	//index portfolio page slideup
-	$('.portfolio_preview_updates').click(function() {
-		$(this).addClass('slide_div_up')
-	})
+	// $('.portfolio_preview_updates').click(function() {
+	// 	$(this).addClass('slide_div_up')
+	// })
 
 	////////interactive iphone/////////
 
