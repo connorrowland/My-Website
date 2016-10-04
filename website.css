@@ -1,5 +1,4 @@
 /*GLOBAL STYLES*/
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 @font-face { 
 	font-family: 'Dharma';
 	src: url('imgs/DharmaGothicE_Bold_R.otf');
@@ -95,7 +94,6 @@ footer{
 	text-align: center
 }
 #footer_nav_bar{
-	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	letter-spacing: 2px;
 	text-align: center;
