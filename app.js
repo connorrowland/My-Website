@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	//Fade out  homepage lander and text as user scrolls down
 	$(window).scroll(function(){
-	    $(".lander_container").css("opacity", 1 - $(window).scrollTop() / 500);
+	    $(".lander_container_new").css("opacity", 1 - $(window).scrollTop() / 700);
 	  });
 
 	//scroll to contact in footer on click of contact button
@@ -15,8 +15,19 @@ $(document).ready(function() {
 	$("#portfolio_link").click(function(){
     	$('html, body').animate({
         	scrollTop: $("#portfolio_container_new").offset().top
-    	}, 800);
+    	}, 900);
 	});
+	// $("#contact_link").bind("click", '#footer_contact_box', slowScrollDown);
+	// $("#portfolio_link").bind("click", '#portfolio_container_new', slowScrollDown);
+
+	// function slowScrollDown (destination) {
+	// 	destinationElement = $(destination);
+	// 	$('html, body').animate({
+	// 		scrollTop: destinationElement.offset().top
+	// 	}, 800);
+	// }
+	// let a = '#footer_contact_box';
+	// let b = '#portfolio_container_new';
 
 	//page transitions 
 	$('body').css('display', 'none');

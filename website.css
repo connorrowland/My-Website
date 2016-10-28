@@ -143,6 +143,13 @@ footer{
     position: relative;
     transform: translateY(-50%);
 }
+.center_container{
+    margin-left: auto;
+    margin-right: auto;  
+}
+.wide_container{
+    width: 900px;
+}
 .center{
     text-align: center;
     margin-left: auto;
@@ -185,6 +192,17 @@ footer{
 }
 .left_aligned{
     text-align: left;
+}
+.left-out-of-view{
+    float: left;
+    width: 190px;
+    margin-top: 25px;
+}
+.black-font{
+    color: black;
+}
+.white-font{
+    color: white;
 }
 /*-------------------------------------- END GLOBAL STYLES --------------------------------------*/
 
@@ -251,6 +269,9 @@ footer{
 .proj8{
     background-color: #EC407A;
 }
+.proj9{
+    background-color: rgb(155, 194, 204);
+}
 #portfolio_container_new{
     text-align: center;
     margin-left: auto;
@@ -295,7 +316,7 @@ footer{
 .text_and_photo{
     width: 100%;
 }
-.text_and_photo p{
+.text_and_photo p, .text_and_photo h4 {
     text-align: left;
 }
 .text_and_photo img{
@@ -361,7 +382,21 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
-
+.med_image{
+    width: 500px;
+    height: auto;
+}
+.big_container{
+    width: 850px;
+}
+.small_text_box{
+    width: 300px;
+}
+.img_bg{
+    background-image: url(imgs/img-ss-bg.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
 /*-------------------------------------- END INDIVIDUAL PROJECT PAGES --------------------------------------*/
 
 
@@ -420,7 +455,7 @@ footer{
 }
 .feature_blog_post_title{
     font-size: 50px;
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-weight: 100;
     font-family: 'Dharma';
@@ -429,10 +464,8 @@ footer{
 }
 .non_feature_blog_post_title{
     font-family: 'Courier';
-    font-weight: 100;
-    font-size: 28px;
-    color: white;
-    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 2px;
 }
 .feature_blog_post_title:hover,.non_feature_blog_post_title:hover{
 	text-decoration: underline;
@@ -531,6 +564,9 @@ footer{
 }
 #how_1_link_container p{
     pointer-events: none;
+}
+#mistakes_bg{
+    background-image: url(imgs/mistakes-bg.png);
 }
 /*-------------------------------------- END BLOG --------------------------------------*/
 
@@ -896,6 +932,9 @@ footer{
     .post_body{
         width: 520px;
     }
+    .big_container{
+        width: 725px;
+    }
 }
 @media screen and (min-device-width: 320px) and (max-width:760px){
 	.portfolio_inner_text{
@@ -950,6 +989,9 @@ footer{
     .feature_blog_post_title {
         font-size: 40px;
     }
+    .big_container{
+        width: 520px;
+    }
 }
 @media screen and (max-width:550px){
     #lander_greeting2_new{
@@ -975,6 +1017,9 @@ footer{
     }
     .feature_blog_post_title {
         font-size: 40px;
+    }
+    .big_container{
+        width: 400px;
     }
 }
 @media screen and (max-width:500px){
@@ -1058,7 +1103,8 @@ footer{
     .post_title,
     .post_container,
     .post_body,
-    #how_1_link_container {
+    #how_1_link_container,
+    .big_container {
         width: 300px;
     }
     .small_green_ellevest_box {
