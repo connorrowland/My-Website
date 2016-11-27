@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Connor Rowland | Web Developer</title>
+	<!-- Meta Tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Connor Rowland">
+	<meta property='og:title' content="Why I Would Resist the Last Recently Used Approach to Sorting"/>
+	<meta property='og:author' content="Connor Rowland"/>
+	<meta property="og:type" content="article" />
+	<meta property='og:image' content="http://connorrowland.github.io/imgs/sorting-bg.png"/>
+	<meta property="twitter:url" content="http://connorrowland.github.io/posts/last-recently-used.html" />
+	<meta property="twitter:title" content="Why I Would Resist the Last Recently Used Approach to Sorting" />
+	<meta property="twitter:image" content="http://connorrowland.github.io/imgs/sorting-image.jpg" />
+	<meta name="keywords" content="connor rowland new york, algorithms, algorithms to live by, sorting, connor, rowland, connor rowland web, connor rowland engineer, web developer, freelance web developer, freelance web developer for hire, nyc freelancing, nyc, developer nyc, manhattan, new york, connor rowland, graphic designer, developer new york, new york web developer, nyc web engineer, web developer ny, web engineer, Connor John Rowland, baruch college, connor john, freelancing, freelancer new york, freelancer web engineer, freelance web engineer, how to make mistakes, best way to make mistakes, how to successfully make mistakes">
+	<!-- Scripts and Links -->
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-67845188-1', 'auto');
+		  ga('send', 'pageview');
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="../app.js"></script>
+	<link rel="shortcut icon" href="../imgs/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="../website.css">
+</head>
+<body>
+	<nav id="nav_bar">
+		<a href="../index.html">Home</a>
+		<a href="../index.html#portfolio_container_new">Portfolio</a>
+		<a href="../blog.html">Blog</a>
+		<a href="../imgs/resume.pdf">Resume</a>
+		<a id="contact_link">Contact</a>
+	</nav>
+	<div class="blog_post_container">
+		<div class="slanted_edge proj7">
+			<div class="post_title">
+				<h2 class="blog_post_title">Why I Would Resist the Last Recently Used Approach to Sorting</h2>
+			</div>
+		</div>
+		<div class="post_container">
+			<div class="post_body first_paragraph">
+				<p>
+					Recently I was reading <a href="http://algorithmstoliveby.com/" target="_blank" title="Algorithms To Live By Link">Algorithms To Live By</a>, a book that provided an interesting perspective on life, and a sense of comfort for a person who finds ~peace~ in surety. In the book, Brian Christian and Tom Griffiths write about a variety of different algorithms and how they've come about, and also the ways in which they express themselves in daily life. One of these mentioned is the Last Recently Used approach to Random Eviction for data caching. LRU is claimed to be a great approach, as it has the ability to accurately recognize unused data and sort memory accordingly.
+				</p>
+				<p>
+					Algorithms To Live By makes an analogy to LRU with Martha Stewart's method for organizing a closet, where you order your clothing based on what you use the most, and get rid of what you don't use at all. But what if reordering a less worn shirt to the back of your closet results in you taking a longer time to look for it when you actually need it? And longer than the time saved by the organization all together? 
+				</p>
+
+				<div class="twenty_spacer"></div>
+				<img src="../imgs/sorting-image.jpg" alt="" class="larger_project_image">
+				<div class="twenty_spacer"></div>
+
+				<p>
+					One way this challenge expresses itself is in the way MacBook's screen spaces automatically order themselves. Say I have 4 spaces in use, then the order of the screens will adjust based on which screens are used most. So if I have Sketch open in Space 2 and Chrome open in Space 4, and then  begin to using Chrome more, Space 4 will move to Space 1. This reordering updates continuously throughout the time the computer is in use. The problem I see here that I think highlights a larger issue with LRU approaches is that this conflicts directly with the brain's approach to short term memory. The screens get updated to reflect frequency of use, but the brain doesn't know this is happening. So when you go back to Space 4 to access Chrome and it isn't there because it was moved to Space 1, you are wasting that minuscule amount of time that the MacBook attempted to save you by ordering screens in the first place. So that's annoying, in what seems like a very petty way.
+				</p>
+				<p>
+					My overall feeling about the LRU approach and it's use for various products and situations in life is that it is a great thing. Martha was right! Putting the clothing you wear most in the front of your closet does save time. But this approach is not the right one for everything, and I feel it can be a detriment in situations where it directly conflicts with and confuses a user's short term memory. 
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="next_project_container">
+		<a href="best-way-to-make-mistakes.html" class="next_project_link"><strong>Next Post</strong>: How To Successfully Make Mistakes</a>
+	</div>
+
+	<footer>
+		<div id="footer_contact_box">
+			<img id="footer_envelope" src="http://i.imgur.com/d5mN9lB.png?2" title="I designed this!" alt="Flat Envelope"/>
+			<h1>Say Hi!</h1>
+			<h2>Or other things.</h2>
+			<button id="email_me_button"><a href="mailto:cjr6734@yahoo.com">Email Me!</a></button>
+		</div>
+		<div id="footer_lower_box">
+			<nav id="footer_nav_bar">
+				<a href="../index.html">Home</a>
+				<a href="../index.html/portfolio_container_new">Portfolio</a>
+				<a href="../blog.html">Blog</a>
+				<a href="../imgs/resume.pdf">Resume</a>
+				<a href="mailto:connor.rowland34@gmail.com">Contact</a>
+			</nav>
+			<div id="footer_links">
+				<a href="mailto:connor.rowland34@gmail.com"><img src="http://i.imgur.com/TbL4up7.png?1" alt="Email Me"></a>
+				<a target="_blank" href="https://github.com/connorrowland"><img src="http://i.imgur.com/z0VVNbs.png?1" alt="Github"></a>
+				<a target="_blank" href="https://www.linkedin.com/in/connorrowland"><img src="http://i.imgur.com/BYqAuxN.png?1" alt="LinkedIn"></a>
+			</div>
+			<p id="footer_text">Connor Rowland<br>New York, NY<br>connor.rowland34@gmail.com<br>(845)548-2033</p>
+		</div>
+	</footer>
+</body>
+</html>

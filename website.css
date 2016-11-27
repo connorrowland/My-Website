@@ -406,6 +406,14 @@ footer{
 	width: 100%;
 	text-align: center;
 }
+.old_posts_container{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fill_space{
+    flex-grow: 2;
+}
 .welcome_container{
 	margin-left: auto;
 	margin-right: auto;
@@ -431,12 +439,13 @@ footer{
     background: url('imgs/floppy-disk-background.png');
 }
 .non_feature_post{
-	width: 347px;
+    flex-basis: 340px;
     height: 300px;
     display: inline-block;
     text-align: left;
     vertical-align: top;
     position: relative;
+    flex-grow: 1;
 }
 .feature_post{
     width: 100%;
@@ -970,7 +979,7 @@ footer{
     #reach_out_text h2{
         width: 300px;
     }
-    .posts_container{
+    .posts_container,.old_posts_container{
         width: 500px;
     }
     .non_feature_post{
@@ -1003,7 +1012,7 @@ footer{
     .lander_img img{
         width: 600px;
     }
-    .posts_container{
+    .posts_container,.old_posts_container{
         width: 400px;
     }
     .post_title,.post_container{
@@ -1100,6 +1109,7 @@ footer{
     #lander_greeting2_new,
     .wide_text_box,
     .posts_container,
+    .old_posts_container,
     .post_title,
     .post_container,
     .post_body,
