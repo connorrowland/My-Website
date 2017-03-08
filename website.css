@@ -290,6 +290,9 @@ footer{
     text-align: center;
     position: relative;
 }
+.lander_container_new > .vertical_center{
+    z-index: 99;
+}
 #lander_greeting1_new{
     display: inherit;
     margin-bottom: 0px;
