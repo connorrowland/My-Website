@@ -246,6 +246,14 @@ footer{
     margin: 0px;
     display: inline-block;
 }
+.orange_text{
+    color: rgb(245,134,30);
+    font-weight: bold;
+}
+.magenta_text{
+    color: #C2185B;
+    font-weight: bold;
+}
 .proj1{
     background-color: #00838F;
 }
