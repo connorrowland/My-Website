@@ -281,6 +281,15 @@ footer{
 .proj9{
     background-color: rgb(155, 194, 204);
 }
+.green_blue{
+    background-color: #0A8996;
+}
+.med_dark_gr_blue{
+    background-color: #055b63;
+}
+.dark_green_blue{
+    background-color: #023b50;
+}
 #portfolio_container_new{
     text-align: center;
     margin-left: auto;
@@ -829,6 +838,20 @@ footer{
     text-decoration: none;
 }
 
+/*------------------------------------ LJC PORTFOLIO PAGE ----------------------------------*/
+
+
+#LJC_iframe{
+    margin-top: 30px;
+    width: 900px;
+    height: 1100px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 25px rgba(0,0,0,.11);
+}
+
+
+/*------------------------------------ LJC PORTFOLIO PAGE ----------------------------------*/
 
 /*------------------------------------ ELLEVEST PORTFOLIO PAGE ----------------------------------*/
 
