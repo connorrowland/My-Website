@@ -11,6 +11,11 @@ $(document).ready(function() {
       	scrollTop: $("#footer_contact_box").offset().top
   	}, 800);
 	});
+	$("#mobile_contact_link").click(function(){
+  	$('html, body').animate({
+      	scrollTop: $("#footer_contact_box").offset().top
+  	}, 800);
+	});
 	//scroll to portfolio in footer on click of portfolio button
 	$("#portfolio_link").click(function(){
   	$('html, body').animate({
@@ -29,6 +34,7 @@ $(document).ready(function() {
 		});
 	})
 
+	//portfolio dropdown
 	$("#portfolio_link, .portfolio_dropdown").hover(
     function() {
       $('.portfolio_dropdown').addClass("portfolio_dropdown_show");
@@ -37,26 +43,6 @@ $(document).ready(function() {
       $('.portfolio_dropdown').removeClass("portfolio_dropdown_show");
     }
   );
-	//Portfolio dropdown
-	// $("#portfolio_link").hover(function(){
-	// 	$(".portfolio_dropdown").addClass("portfolio_dropdown_show");
-	// })
-	// $("#portfolio_link").mouseenter(function(){
-	// 	$(".portfolio_dropdown").addClass("portfolio_dropdown_show")
-	// }).mouseleave(function(){
-	// 	$(".portfolio_dropdown").removeClass("portfolio_dropdown_show")
-	// });
-	// $("#contact_link").bind("click", '#footer_contact_box', slowScrollDown);
-	// $("#portfolio_link").bind("click", '#portfolio_container_new', slowScrollDown);
-
-	// function slowScrollDown (destination) {
-	// 	destinationElement = $(destination);
-	// 	$('html, body').animate({
-	// 		scrollTop: destinationElement.offset().top
-	// 	}, 800);
-	// }
-	// let a = '#footer_contact_box';
-	// let b = '#portfolio_container_new';
 
 	//page transitions 
 	$('body').css('display', 'none');
@@ -69,11 +55,6 @@ $(document).ready(function() {
 	function newpage() {
 		window.location = newLocation;
 	}
-
-	//index portfolio page slideup
-	// $('.portfolio_preview_updates').click(function() {
-	// 	$(this).addClass('slide_div_up')
-	// })
 
 	////////interactive iphone/////////
 
