@@ -1322,6 +1322,7 @@ footer{
 #footer_contact_box p{
     font-size: 20px;
     margin-bottom: 40px;
+    color: white;
 }
 #footer_contact_box a{
     color: white !important;
@@ -1341,6 +1342,7 @@ footer{
 #footer_text{
     line-height: 1.5;
     margin: 0;
+    color: white;
 }
 #email_me_button{
     font-size: 16px;
