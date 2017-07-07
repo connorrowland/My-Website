@@ -57,8 +57,6 @@ $(document).ready(function() {
 	// }
 	// let a = '#footer_contact_box';
 	// let b = '#portfolio_container_new';
-	$('#instamilligram_photo_desktop').css('display', 'none');
-	$('#instamilligram_photo_desktop').slideToggle(2500);
 
 	//page transitions 
 	$('body').css('display', 'none');
