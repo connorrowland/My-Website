@@ -24,23 +24,129 @@
 	<link rel="stylesheet" type="text/css" href="website.css">
 </head>
 <body>
-	<nav id="nav_bar">
-		<a href="index.html">Home</a>
-		<a href="index.html#portfolio_container_new">Portfolio</a>
-		<a href="blog.html">Blog</a>
-		<a href="imgs/resume.pdf">Resume</a>
-		<a id="contact_link">Contact</a>
-	</nav>
-	<div id="portfolio_container">
-		<h1 id="project_name_text">Baruch College Play</h1>
-		<p id="project_description_text">For my Graphic Design class focusing on Typography, we were assigned to create a poster design for the school play&mdash; Tennessee Williams's <i>Suddenly Last Summer</i>.</p>
-		<div class="fifty_spacer"></div>
-		<img class="larger_project_image" src="imgs/suddenly-last-sm.png" alt="Suddenly Last Summer Poster" />
-		<div class="fifty_spacer"></div>
-
-		<div class="next_project_container">
-			<a href="magazines.html" class="next_project_link"><strong>Next Project</strong>: Magazine Layouts</a>
+	<div class="box_nav_container">
+    <div class="logo_container">
+      <img src="./imgs/logo.png" alt="Connor Rowland Logo">
+    </div>
+    <div class="column_container right_nav_items">
+      <div class="my_meta_info_container">
+        <div class="meta_info_inner">
+          <div class="name header_info">
+            <strong>CONNOR ROWLAND</strong>
+          </div>
+          <div class="header_info">
+            <h4>NEW YORK, NY</h4>
+          </div>
+          <div class="header_info">
+            <a class="header_email" href="mailto:connor.rowland34@gmail.com">CONNOR.ROWLAND34@GMAIL.COM</a>
+          </div>
+        </div>
+      </div>
+      <div class="page_links_container">
+        <a class="page_link" href="./index.html" title="Home">
+          <h4>HOME</h4>
+        </a>
+        <a class="page_link" href="./index.html#portfolio.html" id="portfolio_link" title="Portfolio">
+          <h4>PORTFOLIO</h4>
+        </a>
+        <a class="page_link" href="./about.html" title="About">
+          <h4>ABOUT</h4>
+        </a>
+        <a class="page_link" href="./blog.html" title="Blog">
+          <h4>BLOG</h4>
+        </a>
+        <a class="page_link" href="./imgs/resume.pdf" title="Resume">
+          <h4>RESUME</h4>
+        </a>
+        <a class="page_link" id="contact_link" title="Contact">
+          <h4>CONTACT</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio_dropdown">
+    <a class="portfolio_dropdown_page_link_a" href="./ellevest.html" title="Ellevest">
+      <h4 class="portfolio_dropdown_page_link">ELLEVEST</h4>
+    </a>
+    <a class="portfolio_dropdown_page_link_a" href="./instamilligram.html" title="instamilligram">
+      <h4 class="portfolio_dropdown_page_link">INSTAMILLIGRAM</h4>
+    </a>
+    <a class="portfolio_dropdown_page_link_a" href="./clientwork.html" title="Client Work">
+      <h4 class="portfolio_dropdown_page_link">CLIENT WORK</h4>
+    </a>
+    <a class="portfolio_dropdown_page_link_a" href="./magazines.html" title="Magazine Spreads">
+      <h4 class="portfolio_dropdown_page_link">MAGAZINE SPREADS</h4>
+    </a>
+    <a class="portfolio_dropdown_page_link_a" href="./baruch.html" title="Baruch College Play">
+      <h4 class="portfolio_dropdown_page_link">PLAY POSTER</h4>
+    </a>
+  </div>
+  <div class="box_nav_container_mobile">
+    <div class="mobile_nav_inner">
+      <div class="mobile_nav_logo">
+        <img src="./imgs/logo.png" alt="Connor Rowland Logo">
+      </div>
+      <div class="mobile_nav_name">
+        <h4>CONNOR ROWLAND</h4>
+      </div>
+      <div class="mobile_nav_hamburger" id="open_nav">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="mobile_nav_hidden_menu">
+      <div class="hidden_menu_inner">
+        <div class="mobile_nav_hamburger" id="close_nav">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="mobile_inner_links_container">
+          <a class="mobile_page_link" href="./index.html" title="Home">
+            <h4>HOME</h4>
+          </a>
+          <a class="mobile_page_link" href="./index.html#portfolio.html" title="Portfolio">
+            <h4>PORTFOLIO</h4>
+          </a>
+          <a class="mobile_page_link" href="./about.html" title="About">
+            <h4>ABOUT</h4>
+          </a>
+          <a class="mobile_page_link" href="./blog.html" title="Blog">
+            <h4>BLOG</h4>
+          </a>
+          <a class="mobile_page_link" href="./imgs/resume.pdf" title="Resume">
+            <h4>RESUME</h4>
+          </a>
+          <a class="mobile_page_link" id="contact_link" title="Contact">
+            <h4>CONTACT</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+	<div class="side_by_side_portfolio_intro white_block">
+		<div class="title_description_container">
+			<h4 class="category">DESIGN</h4>
+			<h2 class="project_name">Baruch College Play</h2>
+			<p>For my Graphic Design class focusing on Typography, we were assigned to create a poster design for the school play&mdash; Tennessee Williams's <i>Suddenly Last Summer</i>.</p>
+			<div class="project_attribute">
+				<h4 class="category">TIME COMPLETED</h4>
+				<p>October, 2016</p>
+			</div>
+			<div class="project_attribute">
+				<h4 class="category">PROJECT BRIEF</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui turpis, tempus nec dictum eget, cursus at elit. Fusce vitae tellus a dui tincidunt dignissim faucibus in sapien. In mollis non enim id commodo. Praesent tellus purus, consequat id dignissim in, facilisis id nulla. In at orci ac risus ullamcorper ultrices. Cras placerat dolor orci, ut volutpat magna dapibus at. Nulla facilisi. Etiam viverra dolor eu dui lobortis, quis hendrerit neque hendrerit. Morbi et dignissim lectus. Donec turpis sem, convallis ac erat nec, iaculis fermentum arcu. Nam pellentesque mollis elit, a hendrerit mi eleifend vel.</p>
+			</div>
 		</div>
+		<img id="sls_photo_elizabeth" src="./imgs/sls-photo.jpg" alt="Suddenly Last Summer" title="Source: Nerve.com">
+	</div>
+	<div class="center">
+		<img id="sls_poster" src="imgs/sls_poster.png" alt="Connor Rowland Suddenly Last Summer Poster" />
+	</div>
+
+	<div class="next_project_container">
+		<a href="magazines.html" class="next_project_link"><strong>Next Project</strong>: Magazine Layouts</a>
 	</div>
 
 	<footer>
