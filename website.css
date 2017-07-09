@@ -645,10 +645,10 @@ footer{
         -ms-flex-align: start;
             align-items: flex-start;
     width: 100%;
-    background-color: #E3E3E3;
+    background-color: #f7f7f7;
 }
-.portfolio_dropdown_page_link_a{
-    width: 20%;
+.portfolio_dropdown_page_link_a {
+    width: 16.6667%;
 }
 .portfolio_dropdown_page_link_a:hover{
     background-color: #c3c3c3;
@@ -661,6 +661,46 @@ footer{
     -webkit-transition: background-color .3s, color .3s;
     -o-transition: background-color .3s, color .3s;
     transition: background-color .3s, color .3s;
+}
+.mobile_portfolio_dropdown{
+    display: none;
+}
+.mobile_portfolio_dropdown_inner{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.mobile_portfolio_dropdown_link_a{
+    margin-left: 40px;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.mobile_portfolio_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E3E3E3;
+    margin: 0;
+    padding-left: 20px;
+}
+.mobile_portfolio_title h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+#mobile_portfolio_expand{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
 }
 #instamilligram_photo_desktop{
     width: 680px;
@@ -709,6 +749,81 @@ footer{
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
 }
+#alexa_photo{
+    width: 450px;
+    height: 100%;
+    margin-top: 90px;
+    margin-right: 100px;
+}
+@media screen and (max-width:1030px){
+    #alexa_photo{
+        display: none;
+    }
+}
+@media screen and (max-width:400px){
+    #alexa_photo_mobile{
+        width: 100%;
+    }
+}
+.videos-container{
+  width: 665px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width:650px) {
+  .videos-container{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+#video2{
+  width: 265px;
+  background: url('./imgs/alexa-poster-1.png');
+  background-size: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#video3{
+  width: 338px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: flex-start;
+  margin-top: 20px;
+  background: url('./imgs/alexa-poster-3.png');
+  background-size: 100%;
+}
+@media only screen and (max-width:650px) {
+  #video2, #video3{
+    width: 100%;
+  }
+}
+.alexa_column{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.alexa_defiance{
+    text-align: center;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 650px;
+}
+@media screen and (max-width:1030px){
+    .alexa_defiance{
+        width: 310px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
 /*-------------------------------------- END GLOBAL STYLES --------------------------------------*/
 
 
@@ -736,12 +851,13 @@ footer{
     margin-right: auto;
 }
 .portfolio_preview_bio h2{
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     letter-spacing: 4px;
     padding-bottom: 15px;
     display: inline-block;
     margin: 0px;
+    font-weight: 100;
 }
 .portfolio_preview_bio p{
     font-size: 15px;

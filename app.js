@@ -43,6 +43,10 @@ $(document).ready(function() {
       $('.portfolio_dropdown').removeClass("portfolio_dropdown_show");
     }
   );
+  //moble portfolio dropdown
+  $("#mobile_portfolio_expand").click(function(){
+    $('.mobile_portfolio_dropdown').slideToggle(600);
+  })
 
 	//page transitions 
 	$('body').css('display', 'none');
