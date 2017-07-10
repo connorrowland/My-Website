@@ -109,9 +109,15 @@ footer{
     margin-top: 0px;
 }
 #footer_text{
-    text-transform: uppercase;
-    font-size: 14px;
-    text-align: center
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 40px;
+    color: white;
+}
+#footer_text a{
+    color: white;
+    text-decoration: underline;
 }
 #footer_nav_bar{
     font-size: 16px;
@@ -845,8 +851,6 @@ footer{
 .portfolio_preview_bio h2{
     font-size: 36px;
     color: white;
-    padding-bottom: 15px;
-    display: inline-block;
     margin: 0px;
     font-weight: 100;
 }
@@ -855,7 +859,6 @@ footer{
     color: white;
     font-weight: 100;
     margin: 0px;
-    display: inline-block;
 }
 .orange_text{
     color: rgb(245,134,30);
@@ -1450,11 +1453,6 @@ footer{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-}
-#footer_text{
-    line-height: 1.5;
-    margin: 0;
-    color: white;
 }
 #email_me_button{
     font-size: 16px;
