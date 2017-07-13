@@ -827,39 +827,6 @@ footer{
 
 
 /*-------------------------------------- LANDER PAGE --------------------------------------*/
-.portfolio_preview_updates{
-    width: 100%;
-    height: 300px;
-    display: inline-block;
-    -webkit-transition: all .6s;
-    -o-transition: all .6s;
-    transition: all .6s;
-}
-.portfolio_preview_updates:hover{
-    opacity: .8;
-}
-.portfolio_preview_bio{
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    width: 355px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.portfolio_preview_bio h2{
-    font-size: 36px;
-    color: white;
-    margin: 0px;
-    font-weight: 100;
-}
-.portfolio_preview_bio p{
-    font-size: 15px;
-    color: white;
-    font-weight: 100;
-    margin: 0px;
-}
 .orange_text{
     color: rgb(245,134,30);
     font-weight: bold;
@@ -904,6 +871,9 @@ footer{
 .dark_green_blue{
     background-color: #023b50;
 }
+.dark_blue{
+    background-color: #032938;
+}
 #portfolio_container_new{
     text-align: center;
     margin-left: auto;
@@ -911,10 +881,61 @@ footer{
     width: 100%;
     background-color: #FDFDFD;
     border-top: 3px dotted #D0CFCF;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio_preview_updates{
+    width: 100%;
+    height: 380px;
+    display: inline-block;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+.portfolio_preview_updates:hover{
+    opacity: .8;
+}
+.portfolio_preview_bio{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolio_preview_bio h2{
+    font-size: 36px;
+    color: white;
+    margin: 0px;
+    font-weight: 100;
+}
+.portfolio_preview_bio p{
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    margin: 0px;
+}
+.potfolio_link_box{
+    width: 33.3333%;
+}
+@media screen and (max-width:1030px){
+    .potfolio_link_box{
+        width: 50%;
+    }
+}
+@media screen and (max-width:690px){
+    .potfolio_link_box{
+        width: 100%;
+    }
 }
 #portfolio_container_new p{
     letter-spacing: 3px;
     font-weight: bold;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .lander_container_new{
     width: 100%;
@@ -1260,31 +1281,6 @@ footer{
 /*-------------------------------------- END BLOG --------------------------------------*/
 
 
-/*-------------------------------------- WRESQ --------------------------------------*/
-.wresq_bef_aft{
-    width: 450px;
-    height: auto;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-.wresq_trio_screenshot{
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 250px;
-    height: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.wresq_old_screenshots{
-    padding: 150px 0;
-    background-color: rgb(30,33,34)
-}
-.wresq_old_screenshots h2{
-    color: #f8f8f8;
-    font-size: 45px;
-}
-/*-------------------------------------- END WRESQ --------------------------------------*/
-
 /*-------------------------------------- RESPONSIVE THING --------------------------------------*/
 .iphone_shell{
     width: 340px;
@@ -1434,6 +1430,10 @@ footer{
     font-size: 65px;
     margin: 0;
 }
+#footer_contact_box h2{
+    font-size: 18px;
+    font-family: "Brandon-regular", Arial, Helvetica, sans-serif;
+}
 #footer_contact_box p{
     font-size: 20px;
     margin-bottom: 40px;
@@ -1466,28 +1466,6 @@ footer{
     text-decoration: none;
     -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
-}
-#reach_out_footer{
-    background: #1d1d1d;
-}
-#reach_out_text{
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-}
-#reach_out_text h2{
-    letter-spacing: 2px;
-    font-size: 40px;
-    width: 500px;
-    margin-bottom: 10px;
-    text-align: left;
-    margin-top: 0;
-    text-transform: uppercase;
-}
-#reach_out_text a{
-    color: #C2185B;
-    text-decoration: none;
 }
 
 /*------------------------------------ LJC PORTFOLIO PAGE ----------------------------------*/
@@ -1560,8 +1538,6 @@ footer{
     width: 350px;
     height: 150px;
 }
-
-
 .left_items{
     display: inline-block;
     width: 350px;
@@ -1593,34 +1569,10 @@ footer{
 /*------------------------------------ END ELLEVEST PORTFOLIO PAGE ----------------------------------*/
 
 
-
-
-
-
-/*------------------------------------ LETS PORTFOLIO PAGE ----------------------------------*/
-
-.centered_lets_meet_icons{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-.centered_lets_meet_icons img{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-/*------------------------------------ END LETS PORTFOLIO PAGE ----------------------------------*/
 /*-------------------------------------- MEDIA QUERIES --------------------------------------*/
 @media screen and (min-device-width: 320px) and (max-width:882px){
     .larger_project_image{
         width: 100%;
-    }
-    .preview_image{
-        width: 300px;
-        height: auto;
-    }
-    #project_description_text{
-        width: 370px;
     }
     .light_gray_divider_line{
         width: 320px;
@@ -1763,19 +1715,6 @@ footer{
     }
     #lander_greeting1_new{
         font-size: 140px;
-    }
-    #project_name_text{
-        width: 300px;
-        font-size: 50px;
-        letter-spacing: 3px;
-    }
-    #long_project_name_text{
-        width: 300px;
-        font-size: 50px;
-    }
-    .portfolio_preview_bio h2{
-        font-size: 45px;
-        margin: 0px;
     }
     .portfolio_preview_bio p{
         font-size: 15px;
