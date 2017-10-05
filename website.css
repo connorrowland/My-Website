@@ -567,7 +567,9 @@ footer{
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 }
 .magazine_image{
@@ -666,7 +668,10 @@ footer{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
@@ -680,9 +685,15 @@ footer{
     padding-bottom: 7px;
 }
 .mobile_portfolio_title{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-bottom: 1px solid #E3E3E3;
     margin: 0;
     padding-left: 20px;
@@ -765,10 +776,17 @@ footer{
 }
 .videos-container{
   width: 665px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   margin-left: auto;
   margin-right: auto;
 }
@@ -791,7 +809,8 @@ footer{
   width: 338px;
   margin-left: auto;
   margin-right: auto;
-  align-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   margin-top: 20px;
   background: url('./imgs/alexa-poster-3.png');
   background-size: 100%;
@@ -881,8 +900,11 @@ footer{
     width: 100%;
     background-color: #FDFDFD;
     border-top: 3px dotted #D0CFCF;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .portfolio_preview_updates{
     width: 100%;
