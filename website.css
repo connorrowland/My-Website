@@ -1,21 +1,21 @@
 /*GLOBAL STYLES*/
-@font-face { 
+@font-face {
     font-family: 'Dharma';
     src: url('imgs/DharmaGothicE_Bold_R.otf');
 }
-@font-face { 
+@font-face {
     font-family: 'Brandon-light';
     src: url('fonts/Brandon_light.otf');
 }
-@font-face { 
+@font-face {
     font-family: 'Brandon-regular';
     src: url('fonts/Brandon_regular.otf');
 }
-@font-face { 
+@font-face {
     font-family: 'Brandon-medium';
     src: url('fonts/Brandon_medium.otf');
 }
-@font-face { 
+@font-face {
     font-family: 'Brandon-bold';
     src: url('fonts/Brandon_bold.otf');
 }
@@ -69,7 +69,7 @@ strong{
     font-weight: bold;
 }
 .underline_link:hover{
-    color: #03A9F4;     
+    color: #03A9F4;
 }
 #nav_bar{
     font-size: 16px;
@@ -128,7 +128,7 @@ footer{
 #footer_nav_bar a{
     margin-top: 30px;
     color: white;
-    text-decoration: none;  
+    text-decoration: none;
     letter-spacing: 2px;
     margin-left: 7px;
     margin-right: 7px;
@@ -173,7 +173,7 @@ footer{
 }
 .center_container{
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
 }
 .wide_container{
     width: 900px;
@@ -313,7 +313,7 @@ footer{
     margin-top: 2.5px;
     margin-bottom: 2.5px;
 }
-.mobile_nav_logo img{ 
+.mobile_nav_logo img{
     width: 21px;
     height: 21px;
     margin-top: 16.5px;
@@ -632,7 +632,7 @@ footer{
     #wresq_screenshot{
         width: 100%;
     }
-} 
+}
 .portfolio_dropdown{
     display: none;
 }
@@ -1209,7 +1209,7 @@ footer{
     padding-top: 150px;
     padding-bottom: 80px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 79%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 79%);  
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 79%);
 }
 .post_title{
     padding-bottom: 10px;
@@ -1253,9 +1253,9 @@ footer{
     font-family: 'Dharma';
     font-size: 70px;
     float: left;
-    line-height: 60px; 
-    padding-top: 4px; 
-    padding-right: 15px; 
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 15px;
     padding-left: 3px;
 }
 .post_body h4{
@@ -1311,14 +1311,14 @@ footer{
     margin-right: auto;
     background-color: black;
     border-radius: 49px;
-    border: 5px solid #d6d6d6;  
+    border: 5px solid #d6d6d6;
 }
 .iphone_screen_container{
     position: relative;
     text-align: center;
 }
 .off_iphone_screen{
-    
+
     width: 328px;
     height: 540px;
     margin-left: auto;
@@ -1783,7 +1783,10 @@ footer{
     }
 
 }
-
+#aw-stamps{
+    width: 300px;
+    height: auto;
+}
 /*-------------------------------------- END MEDIA QUERIES --------------------------------------*/
 
 /*
@@ -1807,10 +1810,10 @@ bar chart*/
     background-color: cornflowerblue
 }
 .page-session-bar{
-    background-color: yellow; 
+    background-color: yellow;
 }
 .dropoff-rate-bar{
-    background-color: lightgreen; 
+    background-color: lightgreen;
 }
 
 .slide_div_up{
