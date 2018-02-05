@@ -1,0 +1,114 @@
+@import "./variables.less";
+#about-page--intro{
+  #about-page-intro--headline{
+    text-align: center;
+    margin: 115px 0 115px 0;
+    @media(max-width: 768px){
+      margin: 75px 0 75px 0;
+    }
+  }
+}
+#about--photo-of-me{
+  width: 100%;
+  height: auto;
+  @media(max-width: 768px){
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+  }
+  @media(max-width: 550px){
+    padding: 0 0 35px 0;
+  }
+}
+#about--bio{
+  p{
+    margin: 35px 0 0 0;
+  }
+}
+#about-bio--direction-line{
+  width: 100%;
+  height: 150px;
+  margin-top: 35px;
+  @media(max-width: 992px){
+    height: auto;
+  }
+  p{
+    font-size: 40px;
+  }
+}
+#about-page--current-work{
+  margin: 115px 0 115px 0;
+  @media(max-width: 992px){
+    margin: 35px 0 115px 0;
+  }
+}
+#about-page--timeline-pretext{
+  margin: 115px 0 115px 0;
+  text-align: center;
+}
+#about-page--timeline{
+  background-image: url('/images/retro_computer.png');
+  background-position: 130% 20%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  @media(max-width: 768px){
+    background-position: -25% 40%;
+  }
+  @media(max-width: 550px){
+    background-position: 10% 27%;
+    background-size: 60%;
+  }
+  .timeline--bold-header{
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .left-timeline--item{
+    text-align: right;
+    border-right: 1px solid #3A3A3A;
+    padding-right: 30px;
+    padding-bottom: 115px;
+    @media(max-width: 768px){
+      padding-left: 180px;
+    }
+    @media(max-width: 550px){
+      padding-left: 0;
+    }
+  }
+}
+#first-timeline-item{
+  @media(max-width: 550px){
+    padding-bottom: 350px !important;
+  }
+  &:before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #3A3A3A;
+    border-radius: 50%;
+    position: absolute;
+    right: -5.9px;
+    top: -5px;
+  }
+}
+#last-timeline-item{
+  padding-bottom: 0 !important;
+  &:after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #3A3A3A;
+    border-radius: 50%;
+    position: absolute;
+    right: -5.9px;
+    bottom: 0;
+  }
+}
+#about-page--timeline-posttext{
+  margin: 115px 0 115px 0;
+  padding: 100px 0 100px 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  background-image: url('/images/confetti.gif');
+}
