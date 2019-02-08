@@ -1,4 +1,9 @@
 @import "./variables.less";
+#my-work--small-text{
+  font-size: 16px;
+  position: relative;
+  top: -5px;
+}
 #homepage--intro{
   padding: 220px 0 0 0;
   #homepage-intro--parent-container{
@@ -40,8 +45,12 @@
       @media(max-width: 550px){
         text-align: center;
       }
-      h2{
+      h1{
         margin: 0;
+        @media(max-width: 768px){
+          font-size: 48px;
+          line-height: 56px;
+        }
       }
     }
   }
@@ -187,13 +196,6 @@
     }
   }
 }
-.homepage--goodbye{
-  text-align: center;
-  #homepage--peace-sign-emoji{
-    width: 160px;
-    height: auto;
-  }
-}
 #homepage--contact{
   text-align: center;
   margin: 220px 0;
@@ -202,7 +204,7 @@
   text-align: center;
   margin-bottom: 220px;
   #homepage--peace-sign-emoji{
-    width: 100px;
+    width: 50px;
     height: auto;
     margin-bottom: 45px;
   }
