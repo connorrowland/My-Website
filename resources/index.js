@@ -9,4 +9,4 @@ require('assets/less/app');
 // require('assets/jsx/App');
 
 // Base JS
-require('assets/js/app');
+// require('assets/js/app');
